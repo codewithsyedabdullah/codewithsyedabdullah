@@ -331,8 +331,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=codewithsyedabdullah&show_icons=true&theme=transparent&title_color=D4AF37&text_color=E2E8F0&icon_color=D4AF37&border_color=1E293B&bg_color=0A0B12&hide_border=true&count_private=true&hide_title=true" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsyedabdullah&theme=transparent&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideNums=E2E8F0&sideLabels=94A3B8&dates=94A3B8&border=1E293B&background=0A0B12&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=codewithsyedabdullah&show_icons=true&theme=transparent&title_color=D4AF37&text_color=E2E8F0&icon_color=D4AF37&border_color=1E293B&bg_color=0A0B12&hide_border=true&count_private=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsyedabdullah&theme=transparent&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideNums=E2E8F0&sideLabels=94A3B8&dates=94A3B8&border=1E293B&bg_color=0A0B12&hide_border=true" height="160" />
 </p>
 
 <p align="center">
@@ -340,7 +340,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=onedark&no-frame=true&no-bg=false&column=7&margin-w=12&margin-h=12" />
+  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12" />
 </p>
 
 <p align="center">
