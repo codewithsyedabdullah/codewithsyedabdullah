@@ -88,7 +88,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
-  <img src="https://img.shields.io/badge/-Salesforce-CAFF3C?style=flat-square&logo=salesforce&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Salesforce-0A0F08?style=flat-square&logo=salesforce&logoColor=CAFF3C" />
 </p>
 
 <br>
