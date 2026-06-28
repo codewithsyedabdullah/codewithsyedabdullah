@@ -1,44 +1,36 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=2&width=100%&section=header&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=6,7&height=240&section=header&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CBA6F7&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=64&animation=fadeIn" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3200&pause=1000&color=CBA6F7&center=true&vCenter=true&width=660&height=45&lines=%24+whoami;AI+%26+Backend+Engineer;LLM+Pipelines+%7C+Cloud-Native+%7C+Fintech;NUST+CS+%7C+3.77+GPA" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI_%26_Backend_Engineer-CBA6F7?style=for-the-badge&labelColor=1E1E2E&logo=starship&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/NUST_CS_·_3.77_GPA-CBA6F7?style=for-the-badge&labelColor=1E1E2E&logo=google-scholar&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Karachi,_Pakistan-CBA6F7?style=for-the-badge&labelColor=1E1E2E&logo=googlemaps&logoColor=CBA6F7" />
+</p>
+
+<p align="center">
+  <a href="https://sabdullahportfolio-web.vercel.app"><img src="https://img.shields.io/badge/Portfolio-CBA6F7?style=for-the-badge&logo=vercel&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="https://linkedin.com/in/syedabdullahyaqoob"><img src="https://img.shields.io/badge/LinkedIn-CBA6F7?style=for-the-badge&logo=linkedin&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="mailto:abdullah2684511@gmail.com"><img src="https://img.shields.io/badge/Email-CBA6F7?style=for-the-badge&logo=gmail&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="https://github.com/codewithsyedabdullah"><img src="https://img.shields.io/badge/GitHub-CBA6F7?style=for-the-badge&logo=github&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=codewithsyedabdullah&style=for-the-badge&color=CBA6F7&label=PROFILE+VIEWS&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/github/followers/codewithsyedabdullah?style=for-the-badge&label=Followers&color=CBA6F7&labelColor=1E1E2E&logo=github&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/github/stars/codewithsyedabdullah?style=for-the-badge&label=Total+Stars&color=CBA6F7&labelColor=1E1E2E&logo=star&logoColor=CBA6F7" />
 </p>
 
 <br>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2000&pause=5000&color=D4AF37&center=true&vCenter=true&width=700&height=55&lines=Syed+Abdullah+Yaqoob" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=800&color=94A3B8&center=true&vCenter=true&width=660&height=40&lines=%24+AI+%26+Backend+Engineer;%24+LLM+Pipelines+%7C+Cloud-Native+%7C+Fintech;%24+NUST+CS+%7C+3.77+GPA" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_%26_Backend_Engineer-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=starship&logoColor=white" />
-  <img src="https://img.shields.io/badge/NUST_CS_·_3.77_GPA-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=google-scholar&logoColor=white" />
-  <img src="https://img.shields.io/badge/Karachi,_Pakistan-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=googlemaps&logoColor=white" />
-</p>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <a href="https://sabdullahportfolio-web.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="https://linkedin.com/in/syedabdullahyaqoob"><img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="mailto:abdullah2684511@gmail.com"><img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="https://github.com/codewithsyedabdullah"><img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=codewithsyedabdullah&style=for-the-badge&color=D4AF37&label=PROFILE+VIEWS&labelColor=0A0B12" />
-  <img src="https://img.shields.io/github/followers/codewithsyedabdullah?style=for-the-badge&label=Followers&color=D4AF37&labelColor=0A0B12&logo=github&logoColor=FFFFFF" />
-  <img src="https://img.shields.io/github/stars/codewithsyedabdullah?style=for-the-badge&label=Total+Stars&color=D4AF37&labelColor=0A0B12&logo=star&logoColor=FFFFFF" />
-</p>
-
-<br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
-<br>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=400&height=35&lines=%2F%2F+ABOUT" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=400&height=35&lines=%2F%2F+ABOUT" />
 </p>
 
 ```bash
@@ -54,94 +46,56 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 </p>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=500&height=35&lines=%2F%2F+TECH+STACK" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=500&height=35&lines=%2F%2F+TECH+STACK" />
 </p>
 
 <br>
 
 <p align="center"><b>Languages</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-JavaScript-0A0B12?style=flat-square&logo=javascript&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-TypeScript-0A0B12?style=flat-square&logo=typescript&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Python-0A0B12?style=flat-square&logo=python&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Java-0A0B12?style=flat-square&logo=openjdk&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-C-0A0B12?style=flat-square&logo=c&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-C%2B%2B-0A0B12?style=flat-square&logo=c%2B%2B&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-C%23-0A0B12?style=flat-square&logo=csharp&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-SQL-0A0B12?style=flat-square&logo=postgresql&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Apex-0A0B12?style=flat-square&logo=salesforce&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,java,c,cpp,cs,php,swift&theme=dark" />
 </p>
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-React-0A0B12?style=flat-square&logo=react&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Next.js-0A0B12?style=flat-square&logo=nextdotjs&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-0A0B12?style=flat-square&logo=tailwindcss&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-HTML5-0A0B12?style=flat-square&logo=html5&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-CSS3-0A0B12?style=flat-square&logo=css3&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-JavaFX-0A0B12?style=flat-square&logo=java&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-WordPress-0A0B12?style=flat-square&logo=wordpress&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" />
 </p>
 
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-Node.js-0A0B12?style=flat-square&logo=nodedotjs&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Express-0A0B12?style=flat-square&logo=express&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-FastAPI-0A0B12?style=flat-square&logo=fastapi&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-REST_API-0A0B12?style=flat-square&logo=postman&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-JWT-0A0B12?style=flat-square&logo=jsonwebtokens&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-.NET-0A0B12?style=flat-square&logo=dotnet&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet&theme=dark" />
 </p>
 
 <p align="center"><b>Cloud & DevOps</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-AWS-0A0B12?style=flat-square&logo=amazonwebservices&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Docker-0A0B12?style=flat-square&logo=docker&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Kubernetes-0A0B12?style=flat-square&logo=kubernetes&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-GitHub_Actions-0A0B12?style=flat-square&logo=githubactions&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Vercel-0A0B12?style=flat-square&logo=vercel&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Railway-0A0B12?style=flat-square&logo=railway&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,vercel&theme=dark" />
 </p>
 
 <p align="center"><b>Databases</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-PostgreSQL-0A0B12?style=flat-square&logo=postgresql&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-MongoDB-0A0B12?style=flat-square&logo=mongodb&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-MySQL-0A0B12?style=flat-square&logo=mysql&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Supabase-0A0B12?style=flat-square&logo=supabase&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-SQLite-0A0B12?style=flat-square&logo=sqlite&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Redis-0A0B12?style=flat-square&logo=redis&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,supabase&theme=dark" />
 </p>
 
 <p align="center"><b>AI & ML</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-OpenAI-0A0B12?style=flat-square&logo=openai&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Claude-0A0B12?style=flat-square&logo=anthropic&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-TensorFlow-0A0B12?style=flat-square&logo=tensorflow&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-scikit--learn-0A0B12?style=flat-square&logo=scikitlearn&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Pandas-0A0B12?style=flat-square&logo=pandas&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-LangChain-0A0B12?style=flat-square&logo=langchain&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" />
 </p>
 
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/-Salesforce-0A0B12?style=flat-square&logo=salesforce&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-MERN-0A0B12?style=flat-square&logo=react&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Git-0A0B12?style=flat-square&logo=git&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Jira-0A0B12?style=flat-square&logo=jira&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/-Postman-0A0B12?style=flat-square&logo=postman&logoColor=D4AF37" />
+  <img src="https://skillicons.dev/icons?i=git,postman,salesforce&theme=dark" />
 </p>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+EXPERTISE" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+EXPERTISE" />
 </p>
 
 <br>
@@ -156,11 +110,11 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | **Data & Analytics** | `Proficient` | TensorFlow, scikit-learn, Pandas/NumPy, A/B testing, Recharts dashboards |
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+PROJECTS" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+PROJECTS" />
 </p>
 
 <br>
@@ -174,12 +128,12 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | **Impact** | 🏆 Fintech Track Hackathon Winner |
 | **Links** | [`repo`](https://github.com/codewithsyedabdullah/AutonomousCFO) |
 
-- Full-stack RESTful API with JWT auth — Fintech Track, Hackathon Winner
-- Composite Financial Health Score algorithm with real-time net worth + goal-tracking dashboards
-- Claude/GPT-4o AI Chat with dynamic context injection and proactive risk alerts
-- Pakistan IRS (FBR) Tax Lawyer module: auto-calculated tax slabs, deductions, one-click PDF export
-- Scenario Simulator with 12-month Recharts projections + CSV bulk-import pipeline
-- Deployed cross-platform on Vercel + Railway with responsive Tailwind CSS UI
+- Architected full-stack RESTful API with JWT auth (Fintech Track, Hackathon Winner)
+- Built composite Financial Health Score algorithm with real-time net worth + goal-tracking dashboards
+- Integrated prompt-engineered Claude/GPT-4o AI Chat with dynamic context injection and proactive risk alerts
+- Built Pakistan IRS (FBR) Tax Lawyer module: auto-calculated tax slabs, deductions, one-click PDF generation
+- Engineered Scenario Simulator with 12-month Recharts projections + CSV bulk-import pipeline
+- Deployed cross-platform on Vercel + Railway with responsive cross-browser Tailwind CSS UI
 </details>
 
 <br>
@@ -192,9 +146,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | **Stack** | React · Supabase · OpenAI/Claude API · Tailwind CSS · Vite · Vercel |
 | **Impact** | Sub-200ms async response, 6 industry verticals |
 
-- Embeddable AI chatbot with prompt-engineered support for 6 industry verticals + lead capture
-- Human escalation routing, Supabase persistent storage, localStorage fallback
-- Deployed on Vercel with responsive Tailwind CSS theming
+- Built embeddable AI chatbot with prompt-engineered support for 6 industry verticals + lead capture
+- Added human escalation routing, Supabase persistent storage, localStorage fallback, React Context API
+- Deployed on Vercel with responsive Tailwind CSS theming and sub-200ms async message handling
 </details>
 
 <br>
@@ -204,12 +158,12 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | React · Node.js · Express · PostgreSQL · Passport.js · Tailwind CSS |
+| **Stack** | React · Node.js · Express · PostgreSQL · Passport.js · CSS · Railway · Vercel |
 | **Impact** | Production-deployed with RBAC, multi-assignee support |
 
-- Session-based auth (Passport.js, bcrypt, HTTP-only cookies) with RESTful CRUD APIs
-- RBAC for team creators and assignees; deployed on Railway + Vercel
-- Multi-assignee tasks, due-date reminders, persistent dark/light mode UI
+- Implemented session-based auth (Passport.js, bcrypt, HTTP-only cookies) with RESTful CRUD APIs
+- Enforced RBAC for team creators and assignees; deployed on Railway + Vercel with Safari API proxy fix
+- Delivered multi-assignee tasks, due-date reminders, persistent dark/light mode UI
 </details>
 
 <br>
@@ -222,8 +176,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | **Stack** | Java · JavaFX/Swing · MySQL · JDBC · MVC |
 | **Impact** | ACID-compliant transactions, enterprise GUI |
 
-- Enterprise Java GUI for supply chain management with ACID-compliant MySQL via JDBC
-- Connection pooling, full CRUD operations, RBAC login using MVC architecture
+- Built enterprise Java GUI for supply chain management with ACID-compliant MySQL transactions via JDBC
+- Implemented connection pooling, full CRUD operations, RBAC login using MVC architecture
 </details>
 
 <br>
@@ -236,54 +190,61 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | **Stack** | C# · .NET · OpenAI API · SQL |
 | **Impact** | 35% query resolution time reduction |
 
-- Multi-form C#/.NET AI chatbot with prompt-engineered OpenAI API
-- Persistent SQL chat history, async message handling, sub-200ms response rendering
+- Reduced query resolution time by 35% with multi-form C#/.NET AI chatbot via prompt-engineered OpenAI API
+- Features persistent SQL chat history, async message handling, sub-200ms response rendering
 </details>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=520&height=35&lines=%2F%2F+EXPERIENCE" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=520&height=35&lines=%2F%2F+EXPERIENCE" />
 </p>
 
 <br>
 
 <pre>
-<b>FlyRank AI</b> · Backend AI Engineering Intern · Remote
+<b>FlyRank AI</b> · Backend AI Engineer · Remote
 <i>June 2026 — Present</i>
 
-  • Engineered LLM inference pipelines on AWS Lambda + S3 → 35% accuracy boost (A/B test)
-  • Built RESTful Node.js/Express microservices on AWS EC2 with Docker → 40% latency reduction
-  • Automated CI/CD via GitHub Actions with K8s orchestration → 50% faster deploys
+  • Boosted AI content ranking accuracy by 35% (A/B test) by engineering LLM pipelines on AWS Lambda + S3
+  • Deployed scalable serverless inference pipelines for real-time AI content ranking at production scale
+  • Reduced backend API latency by 40% (profiler) by building RESTful Node.js/Express microservices on AWS EC2
+  • Containerized all microservices with Docker for consistent reproducible deployment environments
+  • Cut deployment time by 50% (sprint log) via automated CI/CD with GitHub Actions + Kubernetes
+  • Achieved zero-downtime rollouts using Kubernetes rolling update strategies
 
   <code>Python  Node.js  AWS Lambda  Docker  Kubernetes  GitHub Actions  LLMs</code>
 
 <b>NUST CS Society (NCSS)</b> · Development Lead & President · Karachi
 <i>April 2025 — Present</i>
 
-  • Scaled membership 40% via Agile/Scrum roadmap; deployed site on AWS S3 + Vercel
-  • Automated CI/CD with GitHub Actions + Salesforce CRM → 30% faster event setup
+  • Scaled membership 40% (sign-up data) by designing a full-year Agile/Scrum roadmap of 6+ events per semester
+  • Deployed society site on AWS S3 + Vercel with automated builds and responsive cross-browser UI
+  • Cut event setup time by 30% (ops log) by automating infrastructure via CI/CD GitHub Actions
+  • Integrated Salesforce CRM for member engagement tracking and data-driven event planning
 
   <code>React  AWS S3  Vercel  Salesforce  GitHub Actions  Agile/Scrum</code>
 
 <b>NUST Robotics & AI (NRAI)</b> · Software Engineer · Karachi
 <i>September 2025 — Present</i>
 
-  • Reduced integration defects 30% across 3 prototypes (Python/Node.js, TensorFlow, Pandas)
-  • Accelerated delivery 25% via Docker + Kubernetes on AWS EC2
-  • Improved maintainability 20% via RESTful API design, CI/CD, documentation
+  • Reduced integration defects by 30% across 3 prototypes via modular Python/Node.js components
+  • Integrated TensorFlow inference and Pandas/NumPy data pipelines into AI automation prototypes
+  • Accelerated prototype delivery by 25% (sprint velocity) by containerizing services with Docker + Kubernetes on AWS EC2
+  • Improved codebase maintainability by 20% (peer review) via RESTful API design and CI/CD pipelines
+  • Maintained technical documentation across all prototypes with Git branching workflows
 
   <code>Python  TensorFlow  Docker  Kubernetes  AWS EC2  REST API</code>
 </pre>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=560&height=35&lines=%2F%2F+ACHIEVEMENTS" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=560&height=35&lines=%2F%2F+ACHIEVEMENTS" />
 </p>
 
 <br>
@@ -296,55 +257,82 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | 🎯 | **NIC Karachi Ambassador** — 1 of 30 selected, top startup incubator |
 | 🏅 | **IELTS Band 8** — CEFR C1 professional proficiency |
 | 📚 | **3.77 GPA** — BS Computer Science, NUST |
-| 👨‍🏫 | **Mentor** — 10+ juniors mentored, 3 shipped projects in 6 weeks |
-| 🌍 | **Community** — Taught 80+ students robotics & Python |
+| 👨‍🏫 | **Student Mentor** — 10+ juniors mentored, 3 shipped projects in 6 weeks |
+| 🌍 | **Community** — Taught 80+ students robotics & Python across 3 free workshops |
+| 🗳️ | **Class Representative** — Resolved 90% of student-faculty conflicts within 48 hours |
 
 </div>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=500&height=35&lines=%2F%2F+EDUCATION" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=580&height=35&lines=%2F%2F+CERTIFICATIONS" />
 </p>
 
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Bachelor_of_Science-Computer_Science-FFFFFF?style=for-the-badge&logo=graduationcap&labelColor=0A0B12&color=D4AF37" />
-  <img src="https://img.shields.io/badge/NUST-Karachi-FFFFFF?style=for-the-badge&logo=location&labelColor=0A0B12&color=D4AF37" />
-  <img src="https://img.shields.io/badge/2025--2029-GPA:_3.77%2F4.00-FFFFFF?style=for-the-badge&logo=star&labelColor=0A0B12&color=D4AF37" />
+  <img src="https://img.shields.io/badge/OpenAI-Agents_and_Workflows-CBA6F7?style=flat-square&logo=openai&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/Anthropic-AI_Fluency-CBA6F7?style=flat-square&logo=anthropic&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/Deloitte-Technology_Virtual_Internship-CBA6F7?style=flat-square&logo=deloitte&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/JPMorganChase-Advanced_SWE-CBA6F7?style=flat-square&logo=jpmorganchase&logoColor=CBA6F7&labelColor=1E1E2E" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HP-AI_for_Beginners_·_Data_Science-CBA6F7?style=flat-square&logo=hp&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/Hugging_Face-AI_Agents-CBA6F7?style=flat-square&logo=huggingface&logoColor=CBA6F7&labelColor=1E1E2E" />
 </p>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+ANALYTICS" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=500&height=35&lines=%2F%2F+EDUCATION" />
 </p>
 
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=codewithsyedabdullah&show_icons=true&theme=transparent&title_color=D4AF37&text_color=E2E8F0&icon_color=D4AF37&border_color=1E293B&bg_color=0A0B12&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsyedabdullah&theme=transparent&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideNums=E2E8F0&sideLabels=94A3B8&dates=94A3B8&border=1E293B&bg_color=0A0B12&hide_border=true" height="160" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsyedabdullah&layout=compact&theme=transparent&title_color=D4AF37&text_color=E2E8F0&border_color=1E293B&bg_color=0A0B12&hide_border=true" height="140" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithsyedabdullah&bg_color=0A0B12&color=D4AF37&line=D4AF37&point=FFD700&area=true&area_color=D4AF37&hide_border=true&custom_title=Contribution+Graph&radius=8" width="100%" />
+  <img src="https://img.shields.io/badge/Bachelor_of_Science-Computer_Science-CBA6F7?style=for-the-badge&logo=graduationcap&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/NUST-Karachi-CBA6F7?style=for-the-badge&logo=googlemaps&logoColor=CBA6F7&labelColor=1E1E2E" />
+  <img src="https://img.shields.io/badge/2025--2029-GPA:_3.77%2F4.00-CBA6F7?style=for-the-badge&logo=star&logoColor=CBA6F7&labelColor=1E1E2E" />
 </p>
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=600&height=35&lines=%2F%2F+CURRENT+FOCUS" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+ANALYTICS" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=codewithsyedabdullah&show_icons=true&theme=transparent&title_color=CBA6F7&text_color=CDD6F4&icon_color=89B4FA&border_color=313244&bg_color=1E1E2E&hide_border=true&count_private=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsyedabdullah&theme=transparent&ring=CBA6F7&fire=F38BA8&currStreakLabel=CBA6F7&sideNums=CDD6F4&sideLabels=A6ADC8&dates=A6ADC8&border=313244&bg_color=1E1E2E&hide_border=true" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsyedabdullah&layout=compact&theme=transparent&title_color=CBA6F7&text_color=CDD6F4&border_color=313244&bg_color=1E1E2E&hide_border=true" height="140" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=dracula&no-frame=true&no-bg=true&column=5&margin-w=10&margin-h=10" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithsyedabdullah&bg_color=1E1E2E&color=CBA6F7&line=CBA6F7&point=89B4FA&area=true&area_color=CBA6F7&hide_border=true&custom_title=Contribution+Graph&radius=8" width="100%" />
+</p>
+
+<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<br>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=600&height=35&lines=%2F%2F+CURRENT+FOCUS" />
 </p>
 
 <br>
@@ -353,15 +341,16 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 currently:
   building:
     - AUTO CFO: AI-powered financial twin with tax filing, scenario simulation, agentic AI chat
-    - LLM inference optimization on serverless AWS infrastructure
+    - Serverless LLM inference pipelines at production scale on AWS infrastructure
   learning:
     - Advanced Kubernetes orchestration & Helm charts
     - Production MLOps pipelines & model deployment
     - System design for scalable fintech platforms
+    - Salesforce Apex & Lightning Web Components
   exploring:
     - Agentic AI workflows with LangChain & multi-agent orchestration
     - Real-time data streaming with WebSockets & Redis
-    - Salesforce Apex & Lightning Web Components
+    - AI content ranking optimization via A/B testing frameworks
   open_to:
     - Software Engineering Intern (Summer 2027)
     - AI/ML Engineering Intern
@@ -370,20 +359,20 @@ currently:
 ```
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,7&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=D4AF37&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+CONNECT" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=1500&pause=4000&color=CBA6F7&center=true&vCenter=true&width=480&height=35&lines=%2F%2F+CONNECT" />
 </p>
 
 <br>
 
 <p align="center">
-  <a href="https://sabdullahportfolio-web.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="https://linkedin.com/in/syedabdullahyaqoob"><img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="mailto:abdullah2684511@gmail.com"><img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
-  <a href="https://github.com/codewithsyedabdullah"><img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
+  <a href="https://sabdullahportfolio-web.vercel.app"><img src="https://img.shields.io/badge/Portfolio-CBA6F7?style=for-the-badge&logo=vercel&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="https://linkedin.com/in/syedabdullahyaqoob"><img src="https://img.shields.io/badge/LinkedIn-CBA6F7?style=for-the-badge&logo=linkedin&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="mailto:abdullah2684511@gmail.com"><img src="https://img.shields.io/badge/Email-CBA6F7?style=for-the-badge&logo=gmail&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
+  <a href="https://github.com/codewithsyedabdullah"><img src="https://img.shields.io/badge/GitHub-CBA6F7?style=for-the-badge&logo=github&logoColor=CBA6F7&labelColor=1E1E2E" /></a>
 </p>
 
 <br>
@@ -395,5 +384,5 @@ currently:
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,4&height=110&section=footer&text=codewithsyedabdullah&fontSize=16&fontColor=F0EDE8&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=6,7&height=120&section=footer&text=codewithsyedabdullah&fontSize=14&fontColor=CDD6F4&animation=fadeIn" width="100%" />
 </p>
