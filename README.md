@@ -339,11 +339,6 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsyedabdullah&layout=compact&theme=transparent&title_color=D4AF37&text_color=E2E8F0&border_color=1E293B&bg_color=0A0B12&hide_border=true" height="140" />
 </p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=dark_lime&no-frame=true&column=5&margin-w=10&margin-h=10" />
-</p>
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithsyedabdullah&bg_color=0A0B12&color=D4AF37&line=D4AF37&point=FFD700&area=true&area_color=D4AF37&hide_border=true&custom_title=Contribution+Graph&radius=8" width="100%" />
 </p>
