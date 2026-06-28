@@ -341,7 +341,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12" />
+  <img src="https://github-profile-trophy.vercel.app/?username=codewithsyedabdullah&theme=dark_lime&no-frame=true&column=5&margin-w=10&margin-h=10" />
 </p>
 
 <p align="center">
