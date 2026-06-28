@@ -5,23 +5,20 @@
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=3,4&height=220&section=header&text=Syed+Abdullah+Yaqoob&fontSize=44&fontColor=D4AF37&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=16&descAlignY=66&animation=twinkling" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2000&pause=5000&color=D4AF37&center=true&vCenter=true&width=700&height=55&lines=Syed+Abdullah+Yaqoob" />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=660&height=55&lines=%24+whoami;AI+%26+Backend+Engineer;LLM+Pipelines+%7C+Cloud-Native+%7C+Fintech;NUST+CS+%7C+3.77+GPA;%24+_+now+recruiting+my+future+team" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=800&color=94A3B8&center=true&vCenter=true&width=660&height=40&lines=%24+AI+%26+Backend+Engineer;%24+LLM+Pipelines+%7C+Cloud-Native+%7C+Fintech;%24+NUST+CS+%7C+3.77+GPA" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI_%26_Backend_Engineer-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=starship&logoColor=white" />
+  <img src="https://img.shields.io/badge/NUST_CS_·_3.77_GPA-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=google-scholar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Karachi,_Pakistan-D4AF37?style=for-the-badge&labelColor=0A0B12&logo=googlemaps&logoColor=white" />
 </p>
 
 <br>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/B.Sc._Computer_Science-NUST-FFFFFF?style=for-the-badge&logo=google-scholar&labelColor=0A0B12&color=D4AF37" />
-  <img src="https://img.shields.io/badge/GPA-3.77%2F4.00-FFFFFF?style=for-the-badge&logo=star&labelColor=0A0B12&color=D4AF37" />
-  <img src="https://img.shields.io/badge/Karachi-Pakistan-FFFFFF?style=for-the-badge&logo=googlemaps&labelColor=0A0B12&color=D4AF37" />
-  <img src="https://img.shields.io/badge/IELTS-Band_8-FFFFFF?style=for-the-badge&logo=book&labelColor=0A0B12&color=D4AF37" />
-</p>
 
 <p align="center">
   <a href="https://sabdullahportfolio-web.vercel.app"><img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0A0B12&color=D4AF37" /></a>
