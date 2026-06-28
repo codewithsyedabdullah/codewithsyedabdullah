@@ -291,7 +291,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <br>
 
-<p align="center">
+<div align="center">
 
 | | |
 |---|---|
@@ -302,7 +302,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 | 👨‍🏫 | **Mentor** — 10+ juniors mentored, 3 shipped projects in 6 weeks |
 | 🌍 | **Community** — Taught 80+ students robotics & Python |
 
-</p>
+</div>
 
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
