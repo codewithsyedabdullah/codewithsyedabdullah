@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=240&section=header&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=64&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=240&section=header&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=56&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
@@ -384,5 +384,5 @@ currently:
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=120&section=footer&text=codewithsyedabdullah&fontSize=14&fontColor=E8F5E1&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=200&section=footer&text=codewithsyedabdullah&fontSize=16&fontColor=E8F5E1&animation=fadeIn" width="100%" />
 </p>
