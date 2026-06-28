@@ -37,9 +37,9 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ cat about.md</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_ABOUT-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 ```bash
 ROLE="AI & Backend Engineer"
@@ -57,9 +57,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ tree tech-stack/</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_TECH_STACK-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -140,9 +140,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ ./expertise.sh</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_EXPERTISE-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -159,11 +159,13 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ cat featured-projects.yaml</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_PROJECTS-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
+
+<div align="center">
 
 <details open>
 <summary><b>AUTO CFO</b> — AI Financial Twin & Tax Filer</summary>
@@ -240,13 +242,15 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 - Persistent SQL chat history, async message handling, sub-200ms response rendering
 </details>
 
+</div>
+
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ cat experience.log</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_EXPERIENCE-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -282,9 +286,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ cat achievements.json</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_ACHIEVEMENTS-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -305,9 +309,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ echo $EDUCATION</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_EDUCATION-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -321,9 +325,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ gh api /user/analytics</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_ANALYTICS-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -348,9 +352,9 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ cat current-focus.yaml</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_CURRENT_FOCUS-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
@@ -378,9 +382,9 @@ currently:
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=3,4&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
-<h3 align="center">
-  <code>~$ echo "Connect"</code>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/▸_CONNECT-D4AF37?style=for-the-badge&labelColor=0A0B12&color=D4AF37" />
+</p>
 
 <br>
 
