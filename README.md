@@ -42,7 +42,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 ```
 
 <p align="center">
-  <i>Building production systems where AI meets infrastructure — LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS · NUST · 3.77 GPA.</i>
+  <b>Building production systems where AI meets infrastructure — LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS · NUST · 3.77 GPA.</b>
 </p>
 
 <br>
@@ -206,7 +206,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <pre>
 <b>FlyRank AI</b> · Backend AI Engineer · Remote
-<i>June 2026 — Present</i>
+<b>June 2026 — Present</b>
 
   • Boosted AI content ranking accuracy by 35% (A/B test) by engineering LLM pipelines on AWS Lambda + S3
   • Deployed scalable serverless inference pipelines for real-time AI content ranking at production scale
@@ -218,7 +218,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <code>Python  Node.js  AWS Lambda  Docker  Kubernetes  GitHub Actions  LLMs</code>
 
 <b>NUST CS Society (NCSS)</b> · Development Lead & President · Karachi
-<i>April 2025 — Present</i>
+<b>April 2025 — Present</b>
 
   • Scaled membership 40% (sign-up data) by designing a full-year Agile/Scrum roadmap of 6+ events per semester
   • Deployed society site on AWS S3 + Vercel with automated builds and responsive cross-browser UI
@@ -228,7 +228,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <code>React  AWS S3  Vercel  Salesforce  GitHub Actions  Agile/Scrum</code>
 
 <b>NUST Robotics & AI (NRAI)</b> · Software Engineer · Karachi
-<i>September 2025 — Present</i>
+<b>September 2025 — Present</b>
 
   • Reduced integration defects by 30% across 3 prototypes via modular Python/Node.js components
   • Integrated TensorFlow inference and Pandas/NumPy data pipelines into AI automation prototypes
@@ -378,7 +378,7 @@ currently:
 <br>
 
 <p align="center">
-  <i>"Systems that ship. Metrics that move. Code that scales."</i>
+  <b>"Systems that ship. Metrics that move. Code that scales."</b>
 </p>
 
 <br>
