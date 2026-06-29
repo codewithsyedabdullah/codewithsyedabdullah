@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&textBg=false&section=header&fontAlignY=30&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=43&animation=fadeIn" width="100%" />
 </p>
 
@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI_%26_Backend_Engineer-CAFF3C?style=for-the-badge&labelColor=0A0F08&logo=starship&logoColor=CAFF3C" />
-  <img src="https://img.shields.io/badge/NUST_CS_Â·_3.77_GPA-CAFF3C?style=for-the-badge&labelColor=0A0F08&logo=google-scholar&logoColor=CAFF3C" />
+  <img src="https://img.shields.io/badge/NUST_CS_·_3.77_GPA-CAFF3C?style=for-the-badge&labelColor=0A0F08&logo=google-scholar&logoColor=CAFF3C" />
   <img src="https://img.shields.io/badge/Karachi,_Pakistan-CAFF3C?style=for-the-badge&labelColor=0A0F08&logo=googlemaps&logoColor=CAFF3C" />
 </p>
 
@@ -35,14 +35,14 @@
 
 ```bash
 ROLE="AI & Backend Engineer"
-EXPERIENCE="LLM pipelines Â· RESTful microservices Â· cloud-native infrastructure"
+EXPERIENCE="LLM pipelines · RESTful microservices · cloud-native infrastructure"
 DOMAIN="Fintech  |  AI/ML  |  SaaS  |  Edtech"
-STACK="Python Â· TypeScript Â· Node.js Â· React Â· AWS Â· Docker Â· K8s Â· LLMs"  
-OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Stack Developer"
+STACK="Python · TypeScript · Node.js · React · AWS · Docker · K8s · LLMs"  
+OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Developer"
 ```
 
 <p align="center">
-  <b>Building production systems where AI meets infrastructure - LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS Â· NUST Â· 3.77 GPA.</b>
+  <b>Building production systems where AI meets infrastructure - LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS · NUST · 3.77 GPA.</b>
 </p>
 
 <br>
@@ -121,9 +121,6 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 </p>
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
-
-<br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
 <br>
 
 <p align="center">
@@ -157,8 +154,8 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | React Â· TypeScript Â· Node.js Â· Express Â· SQLite Â· OpenAI/Claude API Â· JWT Â· Recharts |
-| **Impact** | ðŸ† Fintech Track Hackathon Winner |
+| **Stack** | React · TypeScript · Node.js · Express · SQLite · OpenAI/Claude API · JWT · Recharts |
+| **Impact** | 🏆 Fintech Track Hackathon Winner |
 | **Links** | [`repo`](https://github.com/codewithsyedabdullah/AutonomousCFO) |
 
 - Architected full-stack RESTful API with JWT auth (Fintech Track, Hackathon Winner)
@@ -176,7 +173,7 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | React Â· Supabase Â· OpenAI/Claude API Â· Tailwind CSS Â· Vite Â· Vercel |
+| **Stack** | React · Supabase · OpenAI/Claude API · Tailwind CSS · Vite · Vercel |
 | **Impact** | Sub-200ms async response, 6 industry verticals |
 
 - Built embeddable AI chatbot with prompt-engineered support for 6 industry verticals + lead capture
@@ -191,7 +188,7 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | React Â· Node.js Â· Express Â· PostgreSQL Â· Passport.js Â· CSS Â· Railway Â· Vercel |
+| **Stack** | React · Node.js · Express · PostgreSQL · Passport.js · CSS · Railway · Vercel |
 | **Impact** | Production-deployed with RBAC, multi-assignee support |
 
 - Implemented session-based auth (Passport.js, bcrypt, HTTP-only cookies) with RESTful CRUD APIs
@@ -206,7 +203,7 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | Java Â· JavaFX/Swing Â· MySQL Â· JDBC Â· MVC |
+| **Stack** | Java · JavaFX/Swing · MySQL · JDBC · MVC |
 | **Impact** | ACID-compliant transactions, enterprise GUI |
 
 - Built enterprise Java GUI for supply chain management with ACID-compliant MySQL transactions via JDBC
@@ -220,7 +217,7 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | C# Â· .NET Â· OpenAI API Â· SQL |
+| **Stack** | C# · .NET · OpenAI API · SQL |
 | **Impact** | 35% query resolution time reduction |
 
 - Reduced query resolution time by 35% with multi-form C#/.NET AI chatbot via prompt-engineered OpenAI API
@@ -239,36 +236,36 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 <br>
 
 <pre>
-<b>FlyRank AI</b> Â· Backend AI Engineer Â· Remote
+<b>FlyRank AI</b> · Backend AI Engineer · Remote
 <b>June 2026 - Present</b>
 
-  â€¢ Boosted AI content ranking accuracy by 35% (A/B test) by engineering LLM pipelines on AWS Lambda + S3
-  â€¢ Deployed scalable serverless inference pipelines for real-time AI content ranking at production scale
-  â€¢ Reduced backend API latency by 40% (profiler) by building RESTful Node.js/Express microservices on AWS EC2
-  â€¢ Containerized all microservices with Docker for consistent reproducible deployment environments
-  â€¢ Cut deployment time by 50% (sprint log) via automated CI/CD with GitHub Actions + Kubernetes
-  â€¢ Achieved zero-downtime rollouts using Kubernetes rolling update strategies
+  • Boosted AI content ranking accuracy by 35% (A/B test) by engineering LLM pipelines on AWS Lambda + S3
+  • Deployed scalable serverless inference pipelines for real-time AI content ranking at production scale
+  • Reduced backend API latency by 40% (profiler) by building RESTful Node.js/Express microservices on AWS EC2
+  • Containerized all microservices with Docker for consistent reproducible deployment environments
+  • Cut deployment time by 50% (sprint log) via automated CI/CD with GitHub Actions + Kubernetes
+  • Achieved zero-downtime rollouts using Kubernetes rolling update strategies
 
   <code>Python  Node.js  AWS Lambda  Docker  Kubernetes  GitHub Actions  LLMs</code>
 
-<b>NUST CS Society (NCSS)</b> Â· Development Lead & President Â· Karachi
+<b>NUST CS Society (NCSS)</b> · Development Lead & President · Karachi
 <b>April 2025 - Present</b>
 
-  â€¢ Scaled membership 40% (sign-up data) by designing a full-year Agile/Scrum roadmap of 6+ events per semester
-  â€¢ Deployed society site on AWS S3 + Vercel with automated builds and responsive cross-browser UI
-  â€¢ Cut event setup time by 30% (ops log) by automating infrastructure via CI/CD GitHub Actions
-  â€¢ Integrated Salesforce CRM for member engagement tracking and data-driven event planning
+  • Scaled membership 40% (sign-up data) by designing a full-year Agile/Scrum roadmap of 6+ events per semester
+  • Deployed society site on AWS S3 + Vercel with automated builds and responsive cross-browser UI
+  • Cut event setup time by 30% (ops log) by automating infrastructure via CI/CD GitHub Actions
+  • Integrated Salesforce CRM for member engagement tracking and data-driven event planning
 
   <code>React  AWS S3  Vercel  Salesforce  GitHub Actions  Agile/Scrum</code>
 
-<b>NUST Robotics & AI (NRAI)</b> Â· Software Engineer Â· Karachi
+<b>NUST Robotics & AI (NRAI)</b> · Software Engineer · Karachi
 <b>September 2025 - Present</b>
 
-  â€¢ Reduced integration defects by 30% across 3 prototypes via modular Python/Node.js components
-  â€¢ Integrated TensorFlow inference and Pandas/NumPy data pipelines into AI automation prototypes
-  â€¢ Accelerated prototype delivery by 25% (sprint velocity) by containerizing services with Docker + Kubernetes on AWS EC2
-  â€¢ Improved codebase maintainability by 20% (peer review) via RESTful API design and CI/CD pipelines
-  â€¢ Maintained technical documentation across all prototypes with Git branching workflows
+  • Reduced integration defects by 30% across 3 prototypes via modular Python/Node.js components
+  • Integrated TensorFlow inference and Pandas/NumPy data pipelines into AI automation prototypes
+  • Accelerated prototype delivery by 25% (sprint velocity) by containerizing services with Docker + Kubernetes on AWS EC2
+  • Improved codebase maintainability by 20% (peer review) via RESTful API design and CI/CD pipelines
+  • Maintained technical documentation across all prototypes with Git branching workflows
 
   <code>Python  TensorFlow  Docker  Kubernetes  AWS EC2  REST API</code>
 </pre>
@@ -287,13 +284,13 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
 
 | | |
 |---|---|
-| ðŸ† | **Hackathon Winner** - Fintech Track (AUTO CFO) |
-| ðŸŽ¯ | **NIC Karachi Ambassador** - 1 of 30 selected, top startup incubator |
-| ðŸ… | **IELTS Band 8** - CEFR C1 professional proficiency |
-| ðŸ“š | **3.77 GPA** - BS Computer Science, NUST |
-| ðŸ‘¨â€ðŸ« | **Student Mentor** - 10+ juniors mentored, 3 shipped projects in 6 weeks |
-| ðŸŒ | **Community** - Taught 80+ students robotics & Python across 3 free workshops |
-| ðŸ—³ï¸ | **Class Representative** - Resolved 90% of student-faculty conflicts within 48 hours |
+| 🏆 | **Hackathon Winner** - Fintech Track (AUTO CFO) |
+| 🎯 | **NIC Karachi Ambassador** - 1 of 30 selected, top startup incubator |
+| 🏅 | **IELTS Band 8** - CEFR C1 professional proficiency |
+| 📚 | **3.77 GPA** - BS Computer Science, NUST |
+| 👨‍🏫 | **Student Mentor** - 10+ juniors mentored, 3 shipped projects in 6 weeks |
+| 🌍 | **Community** - Taught 80+ students robotics & Python across 3 free workshops |
+| 🗳️ | **Class Representative** - Resolved 90% of student-faculty conflicts within 48 hours |
 
 </div>
 
@@ -314,7 +311,7 @@ OPEN_TO="SWE Intern  Â·  AI/ML Intern  Â·  Backend Developer  Â·  Full-Sta
   <img src="https://img.shields.io/badge/JPMorganChase-Advanced_SWE-CAFF3C?style=flat-square&logo=jpmorganchase&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/HP-AI_for_Beginners_Â·_Data_Science-CAFF3C?style=flat-square&logo=hp&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/HP-AI_for_Beginners_·_Data_Science-CAFF3C?style=flat-square&logo=hp&logoColor=CAFF3C&labelColor=0A0F08" />
   <img src="https://img.shields.io/badge/Hugging_Face-AI_Agents-CAFF3C?style=flat-square&logo=huggingface&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
