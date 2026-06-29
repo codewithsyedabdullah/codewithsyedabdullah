@@ -401,5 +401,5 @@ currently:
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=28&fontColor=CAFF3C&textBg=false&animation=fadeIn&section=footer&fontAlignY=70&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=13&descAlign=24&descAlignY=85&reversal=false" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=codewithsyedabdullah&fontSize=28&fontColor=CAFF3C&textBg=false&animation=fadeIn&section=footer&fontAlignY=70&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=13&descAlign=24&descAlignY=85&reversal=false" width="100%" />
 </p>
