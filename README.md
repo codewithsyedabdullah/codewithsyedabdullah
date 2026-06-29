@@ -66,7 +66,10 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" />
   <img src='icons/wordpress.svg' width='48' height='48' />
   <img src='icons/lwc.svg' width='48' height='48' />
-  <img src='icons/winforms.svg' width='48' height='48' /></p>
+  <img src='icons/javafx.svg' width='48' height='48' />
+  <img src='icons/winforms.svg' width='48' height='48' />
+  <img src='icons/swing.svg' width='48' height='48' />
+  <img src='icons/mvc.svg' width='48' height='48' /></p>
 
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
@@ -110,6 +113,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
+  <img src='icons/salesforce.svg' width='48' height='48' />
 </p>
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
