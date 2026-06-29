@@ -387,5 +387,5 @@ currently:
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=200&section=footer&text=codewithsyedabdullah&fontSize=16&fontColor=E8F5E1&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=2&height=200&section=footer&text=Syed+Abdullah+Yaqoob&fontSize=28&fontColor=CAFF3C&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=13&descAlignY=60&animation=fadeIn" width="100%" />
 </p>
