@@ -74,14 +74,14 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet&theme=dark" />
-  <img src='icons/jwt.svg' width='48' height='48' />
+  <img src='icons/jwt.png' width='48' height='48' />
   <img src='icons/oauth.svg' width='48' height='48' />
-  <img src='icons/bcrypt.svg' width='48' height='48' />
+  <img src='icons/bcrypt.png' width='48' height='48' />
   <img src='icons/jdbc.svg' width='48' height='48' />
   <img src='icons/restapi.svg' width='48' height='48' />
-  <img src='icons/mern.svg' width='48' height='48' />
+  <img src='icons/mern.png' width='48' height='48' />
   <img src='icons/websockets.svg' width='48' height='48' />
-  <img src='icons/langchain.svg' width='48' height='48' />
+  <img src='icons/langchain.png' width='48' height='48' />
   <img src='icons/passport.svg' width='48' height='48' /></p>
 
 <p align="center"><b>Cloud & DevOps</b></p>
@@ -105,10 +105,10 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <p align="center"><b>AI Platforms</b></p>
 <p align="center">
-  <img src='icons/openai.svg' width='48' height='48' />
-  <img src='icons/langchain.svg' width='48' height='48' />
+  <img src='icons/openai.png' width='48' height='48' />
+  <img src='icons/langchain.png' width='48' height='48' />
   <img src='icons/huggingface.svg' width='48' height='48' />
-  <img src='icons/anthropic.svg' width='48' height='48' /></p>
+  <img src='icons/anthropic.png' width='48' height='48' /></p>
 
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
