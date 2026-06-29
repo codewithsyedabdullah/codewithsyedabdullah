@@ -120,6 +120,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <br>
 
+<div style="width: 100%; box-sizing: border-box; padding: 0;">
 <details open>
 <summary><b>AUTO CFO</b> — AI Financial Twin & Tax Filer</summary>
 
@@ -194,6 +195,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 - Reduced query resolution time by 35% with multi-form C#/.NET AI chatbot via prompt-engineered OpenAI API
 - Features persistent SQL chat history, async message handling, sub-200ms response rendering
 </details>
+</div>
 
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
