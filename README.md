@@ -75,8 +75,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <img src='icons/jwt.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/oauth.svg' width='48' height='48' />
   <img src='icons/bcrypt.png' width='48' height='48' style='border-radius:6px' />
-  <img src='icons/jdbc.svg' width='48' height='48' />
-  <img src='icons/restapi.svg' width='48' height='48' />
+  <img src='icons/restapi.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/mern.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/websockets.svg' width='48' height='48' />
   <img src='icons/langchain.png' width='48' height='48' style='border-radius:6px' />
