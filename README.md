@@ -62,17 +62,20 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" />
+  <img src="https://img.shields.io/badge/-WordPress-0A0F08?style=flat-square&logo=wordpress&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet&theme=dark" />
+  <img src="https://img.shields.io/badge/-Railway-0A0F08?style=flat-square&logo=railway&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Cloud & DevOps</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,vercel&theme=dark" />
+  <img src="https://img.shields.io/badge/-Helm-0A0F08?style=flat-square&logo=helm&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Databases</b></p>
@@ -83,6 +86,17 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>AI & ML</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" />
+  <img src="https://img.shields.io/badge/-pandas-0A0F08?style=flat-square&logo=pandas&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-numpy-0A0F08?style=flat-square&logo=numpy&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-scikit--learn-0A0F08?style=flat-square&logo=scikit-learn&logoColor=CAFF3C&labelColor=0A0F08" />
+</p>
+
+<p align="center"><b>AI Platforms</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/-OpenAI-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Anthropic-0A0F08?style=flat-square&logo=anthropic&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-LangChain-0A0F08?style=flat-square&logo=langchain&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Hugging%20Face-0A0F08?style=flat-square&logo=huggingface&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Platforms & Tools</b></p>
