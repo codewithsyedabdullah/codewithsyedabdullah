@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="351" viewBox="0 0 304 351" width="304">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="351" viewBox="0 0 304 351" width="304"><rect width='100%' height='100%' rx='25%' ry='25%' fill='#0F1689'/>
 <mask id="a" fill="#fff">
 <path d="m0 0h313.303155v159.864865h-313.303155z" fill="#fff" fill-rule="evenodd"/>
 </mask>

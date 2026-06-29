@@ -72,6 +72,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet&theme=dark" />
+  <img src='icons/fastapi.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/jwt.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/oauth.svg' width='48' height='48' />
   <img src='icons/bcrypt.png' width='48' height='48' style='border-radius:6px' />
