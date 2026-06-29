@@ -58,17 +58,24 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Languages</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,py,java,c,cpp,cs,php,swift&theme=dark" />
+  <img src="https://img.shields.io/badge/-Apex-0A0F08?style=flat-square&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" />
   <img src="https://img.shields.io/badge/-WordPress-0A0F08?style=flat-square&logo=wordpress&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-JavaFX-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Swing-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-WinForms-0A0F08?style=flat-square&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet&theme=dark" />
+  <img src="https://img.shields.io/badge/-JWT-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Passport.js-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-JDBC-0A0F08?style=flat-square&labelColor=0A0F08" />
   <img src="https://img.shields.io/badge/-Railway-0A0F08?style=flat-square&logo=railway&logoColor=CAFF3C&labelColor=0A0F08" />
 </p>
 
@@ -89,6 +96,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <img src="https://img.shields.io/badge/-pandas-0A0F08?style=flat-square&logo=pandas&logoColor=CAFF3C&labelColor=0A0F08" />
   <img src="https://img.shields.io/badge/-numpy-0A0F08?style=flat-square&logo=numpy&logoColor=CAFF3C&labelColor=0A0F08" />
   <img src="https://img.shields.io/badge/-scikit--learn-0A0F08?style=flat-square&logo=scikit-learn&logoColor=CAFF3C&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Recharts-0A0F08?style=flat-square&labelColor=0A0F08" />
 </p>
 
 <p align="center"><b>AI Platforms</b></p>
@@ -102,6 +110,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
+  <img src="https://img.shields.io/badge/-MERN-0A0F08?style=flat-square&labelColor=0A0F08" />
+  <img src="https://img.shields.io/badge/-Agile-0A0F08?style=flat-square&labelColor=0A0F08" />
   <img src="https://img.shields.io/static/v1?label=&message=Salesforce&color=0A0F08&style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjQ0FGRjNDIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuMDA3IDMuNzYyYy0uOTAyIDAtMS43Mi4zNjUtMi4zMDUuOTU2YTMuMjg5IDMuMjg5IDAgMDAtLjYyNS44NTMgMy4zMDQgMy4zMDQgMCAwMC0xLjE5My0uMjJjLTEuNTY4IDAtMi44NjggMS4xMi0zLjA3NiAyLjU5Ny0uMDMuMi0uMDQzLjM5OS0uMDMuNTkzYTMuNDM4IDMuNDM4IDAgMDAtLjEtLjAwMmMtLjczNiAwLTEuNDQuMjQ2LTIuMDAzLjY5NUEzLjM3NCAzLjM3NCAwIDAwMCAxMS43NDRhMy40MjIgMy40MjIgMCAwMDMuNDIyIDMuNDIyYy4wMiAwIC4wNDIgMCAuMDYzLS4wMDJhMy4zODUgMy4zODUgMCAwMDIuNjQgMS45OTYgMy4xOTggMy4xOTggMCAwMDEuMzE2LjI3IDMuMTggMy4xOCAwIDAwMS4xNzQtLjIyNyAzLjE3OCAzLjE3OCAwIDAwMi40MzUgMS4wNjRjLjgzMyAwIDEuNTk5LS4zMTYgMi4xNjQtLjgzNi4yNDguMDMuNTAxLjA0Ny43NTUuMDQ3IDEuNTc0IDAgMi44OTQtMS4wNzcgMy4xNTYtMi41M2EzLjY5NCAzLjY5NCAwIDAwLjAzNS0uNTM0YzAtLjA3NC0uMDA2LS4xNDctLjAxNC0uMjIuMzgyLS40MDYuNjMtLjk0Mi42My0xLjU2YTIuMjcgMi4yNyAwIDAwLS42ODMtMS42MDYgMi40NCAyLjQ0IDAgMDAtLjIxMy0uMTk1IDMuNTA0IDMuNTA0IDAgMDAuMjEyLS41MzJjLjE3MS0uNTI3LjIwNi0xLjA4OC4wODItMS42NDNhMy40MiAzLjQyIDAgMDAtMS43LTIuMjM3bC0uMDAyLS4wMDFhMy4zNjMgMy4zNjMgMCAwMC0xLjc5LS41MjJoLS4wMWMtLjExNCAwLS4yMjYuMDEtLjMzOC4wMjItLjMzOC0uNDEzLS44LS43My0xLjMyOC0uODk3QTMuMTkgMy4xOSAwIDAwMTAuMDA3IDMuNzYyWiIvPjwvc3ZnPg==" />
 </p>
 
