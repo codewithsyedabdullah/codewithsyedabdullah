@@ -42,7 +42,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 ```
 
 <p align="center">
-  <b>Building production systems where AI meets infrastructure — LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS · NUST · 3.77 GPA.</b>
+  <b>Building production systems where AI meets infrastructure - LLM inference on AWS Lambda, containerized microservices, fintech apps with agentic AI. First-year CS · NUST · 3.77 GPA.</b>
 </p>
 
 <br>
@@ -136,7 +136,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <div style="width: 100%; box-sizing: border-box; padding: 0;">
 <details open>
-<summary><b>AUTO CFO</b> — AI Financial Twin & Tax Filer</summary>
+<summary><b>AUTO CFO</b> - AI Financial Twin & Tax Filer</summary>
 
 | Attribute | Detail |
 |-----------|--------|
@@ -155,7 +155,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 <details>
-<summary><b>AI Chatbot Widget</b> — Multi-Industry Assistant</summary>
+<summary><b>AI Chatbot Widget</b> - Multi-Industry Assistant</summary>
 
 | Attribute | Detail |
 |-----------|--------|
@@ -185,7 +185,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 <details>
-<summary><b>OmniTrack</b> — Logistics Tracker</summary>
+<summary><b>OmniTrack</b> - Logistics Tracker</summary>
 
 | Attribute | Detail |
 |-----------|--------|
@@ -199,7 +199,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 <details>
-<summary><b>MiniChat</b> — WinForms AI Chatbot</summary>
+<summary><b>MiniChat</b> - WinForms AI Chatbot</summary>
 
 | Attribute | Detail |
 |-----------|--------|
@@ -223,7 +223,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <pre>
 <b>FlyRank AI</b> · Backend AI Engineer · Remote
-<b>June 2026 — Present</b>
+<b>June 2026 - Present</b>
 
   • Boosted AI content ranking accuracy by 35% (A/B test) by engineering LLM pipelines on AWS Lambda + S3
   • Deployed scalable serverless inference pipelines for real-time AI content ranking at production scale
@@ -235,7 +235,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <code>Python  Node.js  AWS Lambda  Docker  Kubernetes  GitHub Actions  LLMs</code>
 
 <b>NUST CS Society (NCSS)</b> · Development Lead & President · Karachi
-<b>April 2025 — Present</b>
+<b>April 2025 - Present</b>
 
   • Scaled membership 40% (sign-up data) by designing a full-year Agile/Scrum roadmap of 6+ events per semester
   • Deployed society site on AWS S3 + Vercel with automated builds and responsive cross-browser UI
@@ -245,7 +245,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <code>React  AWS S3  Vercel  Salesforce  GitHub Actions  Agile/Scrum</code>
 
 <b>NUST Robotics & AI (NRAI)</b> · Software Engineer · Karachi
-<b>September 2025 — Present</b>
+<b>September 2025 - Present</b>
 
   • Reduced integration defects by 30% across 3 prototypes via modular Python/Node.js components
   • Integrated TensorFlow inference and Pandas/NumPy data pipelines into AI automation prototypes
@@ -270,13 +270,13 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 | | |
 |---|---|
-| 🏆 | **Hackathon Winner** — Fintech Track (AUTO CFO) |
-| 🎯 | **NIC Karachi Ambassador** — 1 of 30 selected, top startup incubator |
-| 🏅 | **IELTS Band 8** — CEFR C1 professional proficiency |
-| 📚 | **3.77 GPA** — BS Computer Science, NUST |
-| 👨‍🏫 | **Student Mentor** — 10+ juniors mentored, 3 shipped projects in 6 weeks |
-| 🌍 | **Community** — Taught 80+ students robotics & Python across 3 free workshops |
-| 🗳️ | **Class Representative** — Resolved 90% of student-faculty conflicts within 48 hours |
+| 🏆 | **Hackathon Winner** - Fintech Track (AUTO CFO) |
+| 🎯 | **NIC Karachi Ambassador** - 1 of 30 selected, top startup incubator |
+| 🏅 | **IELTS Band 8** - CEFR C1 professional proficiency |
+| 📚 | **3.77 GPA** - BS Computer Science, NUST |
+| 👨‍🏫 | **Student Mentor** - 10+ juniors mentored, 3 shipped projects in 6 weeks |
+| 🌍 | **Community** - Taught 80+ students robotics & Python across 3 free workshops |
+| 🗳️ | **Class Representative** - Resolved 90% of student-faculty conflicts within 48 hours |
 
 </div>
 
