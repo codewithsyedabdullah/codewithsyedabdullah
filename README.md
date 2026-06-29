@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&textBg=false&section=header&fontAlignY=30&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=55&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&textBg=false&section=header&fontAlignY=30&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=55&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
-  <img src="https://img.shields.io/badge/Salesforce-0A0F08?style=for-the-badge&logo=salesforce&logoColor=CAFF3C" />
+  <img src="https://img.shields.io/static/v1?label=&message=Salesforce&color=0A0F08&style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjQ0FGRjNDIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuMDA3IDMuNzYyYy0uOTAyIDAtMS43Mi4zNjUtMi4zMDUuOTU2YTMuMjg5IDMuMjg5IDAgMDAtLjYyNS44NTMgMy4zMDQgMy4zMDQgMCAwMC0xLjE5My0uMjJjLTEuNTY4IDAtMi44NjggMS4xMi0zLjA3NiAyLjU5Ny0uMDMuMi0uMDQzLjM5OS0uMDMuNTkzYTMuNDM4IDMuNDM4IDAgMDAtLjEtLjAwMmMtLjczNiAwLTEuNDQuMjQ2LTIuMDAzLjY5NUEzLjM3NCAzLjM3NCAwIDAwMCAxMS43NDRhMy40MjIgMy40MjIgMCAwMDMuNDIyIDMuNDIyYy4wMiAwIC4wNDIgMCAuMDYzLS4wMDJhMy4zODUgMy4zODUgMCAwMDIuNjQgMS45OTYgMy4xOTggMy4xOTggMCAwMDEuMzE2LjI3IDMuMTggMy4xOCAwIDAwMS4xNzQtLjIyNyAzLjE3OCAzLjE3OCAwIDAwMi40MzUgMS4wNjRjLjgzMyAwIDEuNTk5LS4zMTYgMi4xNjQtLjgzNi4yNDguMDMuNTAxLjA0Ny43NTUuMDQ3IDEuNTc0IDAgMi44OTQtMS4wNzcgMy4xNTYtMi41M2EzLjY5NCAzLjY5NCAwIDAwLjAzNS0uNTM0YzAtLjA3NC0uMDA2LS4xNDctLjAxNC0uMjIuMzgyLS40MDYuNjMtLjk0Mi42My0xLjU2YTIuMjcgMi4yNyAwIDAwLS42ODMtMS42MDYgMi40NCAyLjQ0IDAgMDAtLjIxMy0uMTk1IDMuNTA0IDMuNTA0IDAgMDAuMjEyLS41MzJjLjE3MS0uNTI3LjIwNi0xLjA4OC4wODItMS42NDNhMy40MiAzLjQyIDAgMDAtMS43LTIuMjM3bC0uMDAyLS4wMDFhMy4zNjMgMy4zNjMgMCAwMC0xLjc5LS41MjJoLS4wMWMtLjExNCAwLS4yMjYuMDEtLjMzOC4wMjItLjMzOC0uNDEzLS44LS43My0xLjMyOC0uODk3QTMuMTkgMy4xOSAwIDAwMTAuMDA3IDMuNzYyWiIvPjwvc3ZnPg==" />
 </p>
 
 <br>
