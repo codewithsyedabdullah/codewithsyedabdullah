@@ -105,9 +105,6 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <p align="center"><b>AI Platforms</b></p>
 <p align="center">
-  <img src='icons/recharts.svg' width='48' height='48' />
-  <img src='icons/promptengineering.svg' width='48' height='48' />
-  <img src='icons/agenticai.svg' width='48' height='48' />
   <img src='icons/openai.svg' width='48' height='48' />
   <img src='icons/langchain.svg' width='48' height='48' />
   <img src='icons/huggingface.svg' width='48' height='48' />
@@ -116,8 +113,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Platforms & Tools</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
-  <img src='icons/llms.svg' width='48' height='48' />
-  <img src='icons/agile.svg' width='48' height='48' />  <img src='icons/salesforce.svg' width='48' height='48' />
+  <img src='icons/salesforce.svg' width='48' height='48' />
 </p>
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=1&width=100%&section=header&animation=fadeIn" width="100%" />
