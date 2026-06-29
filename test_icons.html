@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>SVG Test</title></head>
+<body>
+<h2>Test 1: Direct SVG embed</h2>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="10" fill="#0F1A0B"/>
+  <rect x="1" y="1" width="46" height="46" rx="9" fill="none" stroke="#1A3610" stroke-width="1.5"/>
+  <g transform="translate(10,10) scale(1.2)" fill="#CAFF3C">
+    <path d="M12 0L4 14h5l-3 10 12-14h-5l5-10h-6z"/>
+  </g>
+</svg>
+
+<h2>Test 2: Data URI as img</h2>
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICA8cmVjdCB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHJ4PSIxMCIgZmlsbD0iIzBGMUEwQiIvPgogIDxyZWN0IHg9IjEiIHk9IjEiIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgcng9IjkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFBMzYxMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMCwxMCkgc2NhbGUoMS4yKSIgZmlsbD0iI0NBRkYzQyI+CjxwYXRoIGQ9Ik0xMiAwTDQgMTRoNWwtMyAxMCAxMi0xNGgtNWw1LTEwaC02eiIvPgogIDwvZz4KPC9zdmc+" width="48" height="48" />
+
+<h2>Test 3: Simple-icons CDN</h2>
+<img src="https://cdn.simpleicons.org/wordpress/CAFF3C/0F1A0B" width="76" height="48" />
+
+<h2>Test 4: Simple-icons CDN (no bg)</h2>
+<img src="https://cdn.simpleicons.org/wordpress/CAFF3C" width="48" height="48" />
+
+<h2>Test 5: Data URI with url-encoded SVG</h2>
+<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%230F1A0B'/%3E%3Crect x='1' y='1' width='46' height='46' rx='9' fill='none' stroke='%231A3610' stroke-width='1.5'/%3E%3Cg transform='translate(10,10) scale(1.2)' fill='%23CAFF3C'%3E%3Cpath d='M12 0L4 14h5l-3 10 12-14h-5l5-10h-6z'/%3E%3C/g%3E%3C/svg%3E" width="48" height="48" />
+</body>
+</html>
