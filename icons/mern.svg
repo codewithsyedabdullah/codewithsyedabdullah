@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="30" fill="#1a1a2e"/>
+  <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#CAFF3C">M</text>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#CAFF3C" opacity="0.6">MERN</text>
+</svg>
