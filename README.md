@@ -58,14 +58,12 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <p align="center"><b>Languages</b></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,java,c,cpp,cs,php,swift&theme=dark" />
-  <img src='icons/apex.svg' width='48' height='48' /></p>
+  <img src="https://skillicons.dev/icons?i=js,ts,py,java,c,cpp,cs,php,swift&theme=dark" /></p>
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" />
   <img src='icons/wordpress.svg' width='48' height='48' />
-  <img src='icons/lwc.svg' width='48' height='48' />
   <img src='icons/javafx.svg' width='48' height='48' />
   <img src='icons/winforms.svg' width='48' height='48' />
   <img src='icons/swing.svg' width='48' height='48' />
