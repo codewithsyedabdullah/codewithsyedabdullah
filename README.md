@@ -141,6 +141,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <details open>
 <summary><b>AUTO CFO</b> - AI Financial Twin & Tax Filer</summary>
 
+<br>
+
 | Attribute | Detail |
 |-----------|--------|
 | **Stack** | React · TypeScript · Node.js · Express · SQLite · OpenAI/Claude API · JWT · Recharts |
