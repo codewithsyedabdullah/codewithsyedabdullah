@@ -56,15 +56,15 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 
-<p align="center"><b>Languages</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Languages ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,py,java,c,cpp,cs,php,swift&theme=dark" /></p>
 
-<p align="center"><b>Frontend</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Frontend ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,wordpress&theme=dark" /></p>
 
-<p align="center"><b>Backend & API</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Backend & API ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,dotnet&theme=dark" />
   <img src='icons/fastapi.png' width='48' height='48' style='border-radius:6px' />
@@ -77,18 +77,18 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <img src='icons/langchain.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/passport.svg' width='48' height='48' /></p>
 
-<p align="center"><b>Cloud & DevOps</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Cloud & DevOps ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,vercel&theme=dark" />
   <img src='icons/railway.svg' width='48' height='48' />
   <img src='icons/helm.svg' width='48' height='48' /></p>
 
-<p align="center"><b>Databases</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Databases ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,supabase&theme=dark" />
 </p>
 
-<p align="center"><b>AI & ML</b></p>
+<p align="center"><b style='font-size:1.2em'>[ AI & ML ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" />
   <img src='icons/pandas.svg' width='48' height='48' />
@@ -96,14 +96,14 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
   <img src='icons/scikitlearn.svg' width='48' height='48' />
   <img src='icons/mlops.svg' width='48' height='48' /></p>
 
-<p align="center"><b>AI Platforms</b></p>
+<p align="center"><b style='font-size:1.2em'>[ AI Platforms ]</b></p>
 <p align="center">
   <img src='icons/openai.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/langchain.png' width='48' height='48' style='border-radius:6px' />
   <img src='icons/huggingface.svg' width='48' height='48' />
   <img src='icons/anthropic.png' width='48' height='48' style='border-radius:6px' /></p>
 
-<p align="center"><b>Platforms & Tools</b></p>
+<p align="center"><b style='font-size:1.2em'>[ Platforms & Tools ]</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,postman&theme=dark" />
   <img src='icons/salesforce.svg' width='48' height='48' />
