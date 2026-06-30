@@ -162,6 +162,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <details>
 <summary><b>AI Chatbot Widget</b> - Multi-Industry Assistant</summary>
 
+<br>
+
 | Attribute | Detail |
 |-----------|--------|
 | **Stack** | React · Supabase · OpenAI/Claude API · Tailwind CSS · Vite · Vercel |
@@ -176,6 +178,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <details>
 <summary><b>Secure Task Management System</b></summary>
+
+<br>
 
 | Attribute | Detail |
 |-----------|--------|
@@ -192,6 +196,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <details>
 <summary><b>OmniTrack</b> - Logistics Tracker</summary>
 
+<br>
+
 | Attribute | Detail |
 |-----------|--------|
 | **Stack** | Java · JavaFX/Swing · MySQL · JDBC · MVC |
@@ -205,6 +211,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <details>
 <summary><b>MiniChat</b> - WinForms AI Chatbot</summary>
+
+<br>
 
 | Attribute | Detail |
 |-----------|--------|
