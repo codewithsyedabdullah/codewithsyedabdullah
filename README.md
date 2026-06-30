@@ -80,7 +80,8 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>Cloud & DevOps</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,vercel&theme=dark" />
-  <img src='icons/railway.svg' width='48' height='48' /></p>
+  <img src='icons/railway.svg' width='48' height='48' />
+  <img src='icons/helm.svg' width='48' height='48' /></p>
 
 <p align="center"><b>Databases</b></p>
 <p align="center">
@@ -90,7 +91,6 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <p align="center"><b>AI & ML</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" />
-  <img src='icons/helm.svg' width='48' height='48' />
   <img src='icons/pandas.svg' width='48' height='48' />
   <img src='icons/numpy.svg' width='48' height='48' />
   <img src='icons/scikitlearn.svg' width='48' height='48' />
