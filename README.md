@@ -62,8 +62,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" />
-  <img src='icons/wordpress.svg' width='48' height='48' /></p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,wordpress&theme=dark" /></p>
 
 <p align="center"><b>Backend & API</b></p>
 <p align="center">
