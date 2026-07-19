@@ -2,6 +2,13 @@
   <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&textBg=false&section=header&fontAlignY=30&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=43&animation=fadeIn" width="100%" />
 </p>
 
+<h1 align="center">🌌 Syed Abdullah Yaqoob | BS_CS NUST</h1>
+
+<p align="center">
+  <img src="dark.svg" alt="Syed Abdullah Yaqoob | Cyber Terminal" width="100%">
+</p>
+
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3200&pause=1000&color=CAFF3C&center=true&vCenter=true&width=660&height=45&lines=%24+whoami;AI+%26+Backend+Engineer;LLM+Pipelines+%7C+Cloud-Native+%7C+Fintech;NUST+CS+%7C+3.77+GPA" />
 </p>
