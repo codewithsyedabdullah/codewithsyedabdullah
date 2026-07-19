@@ -13,32 +13,32 @@
       @keyframes scan { 0%{transform:translateY(0)} 50%{transform:translateY(300px)} 100%{transform:translateY(0)} }
       @keyframes float-p1 { 0%,100%{transform:translate(0,0);opacity:.2} 50%{transform:translate(10px,-20px);opacity:.7} }
       @keyframes float-p2 { 0%,100%{transform:translate(0,0);opacity:.3} 50%{transform:translate(-15px,-15px);opacity:.8} }
-      @keyframes pulse-border { 0%,100%{stroke-opacity:.3} 50%{stroke-opacity:.8} }
-      @keyframes fadeSeq1 { 0%,10%{opacity:0} 11%,100%{opacity:1} }
-      @keyframes fadeSeq2 { 0%,12%{opacity:0} 13%,100%{opacity:1} }
-      @keyframes fadeSeq3 { 0%,21%{opacity:0} 22%,100%{opacity:1} }
-      @keyframes fadeSeq4 { 0%,23%{opacity:0} 24%,100%{opacity:1} }
-      @keyframes fadeSeq5 { 0%,32%{opacity:0} 33%,100%{opacity:1} }
-      @keyframes fadeSeq6 { 0%,41%{opacity:0} 42%,100%{opacity:1} }
-      @keyframes fadeSeq7 { 0%,50%{opacity:0} 51%,100%{opacity:1} }
-      @keyframes fadeSeq8 { 0%,59%{opacity:0} 60%,100%{opacity:1} }
-      @keyframes fadeSeq9 { 0%,68%{opacity:0} 69%,100%{opacity:1} }
-      @keyframes fadeSeq10 { 0%,71%{opacity:0} 72%,100%{opacity:1} }
+      @keyframes pulse-border { 0%,100%{stroke-opacity:.25} 50%{stroke-opacity:.8} }
+      @keyframes fade1 { 0%,10%{opacity:0} 11%,100%{opacity:1} }
+      @keyframes fade2 { 0%,12%{opacity:0} 13%,100%{opacity:1} }
+      @keyframes fade3 { 0%,21%{opacity:0} 22%,100%{opacity:1} }
+      @keyframes fade4 { 0%,23%{opacity:0} 24%,100%{opacity:1} }
+      @keyframes fade5 { 0%,32%{opacity:0} 33%,100%{opacity:1} }
+      @keyframes fade6 { 0%,41%{opacity:0} 42%,100%{opacity:1} }
+      @keyframes fade7 { 0%,50%{opacity:0} 51%,100%{opacity:1} }
+      @keyframes fade8 { 0%,59%{opacity:0} 60%,100%{opacity:1} }
+      @keyframes fade9 { 0%,68%{opacity:0} 69%,100%{opacity:1} }
+      @keyframes fade10 { 0%,71%{opacity:0} 72%,100%{opacity:1} }
       @keyframes draw-wave { 0%{stroke-dashoffset:1000} 100%{stroke-dashoffset:0} }
       .sc { animation:scan 6s infinite ease-in-out }
       .p1 { animation:float-p1 5s infinite ease-in-out }
       .p2 { animation:float-p2 7s infinite ease-in-out }
       .pb { animation:pulse-border 4s infinite ease-in-out }
-      .o1 { animation:fadeSeq1 20s infinite }
-      .o2 { animation:fadeSeq2 20s infinite }
-      .o3 { animation:fadeSeq3 20s infinite }
-      .o4 { animation:fadeSeq4 20s infinite }
-      .o5 { animation:fadeSeq5 20s infinite }
-      .o6 { animation:fadeSeq6 20s infinite }
-      .o7 { animation:fadeSeq7 20s infinite }
-      .o8 { animation:fadeSeq8 20s infinite }
-      .o9 { animation:fadeSeq9 20s infinite }
-      .o10 { animation:fadeSeq10 20s infinite }
+      .f1 { animation:fade1 20s infinite }
+      .f2 { animation:fade2 20s infinite }
+      .f3 { animation:fade3 20s infinite }
+      .f4 { animation:fade4 20s infinite }
+      .f5 { animation:fade5 20s infinite }
+      .f6 { animation:fade6 20s infinite }
+      .f7 { animation:fade7 20s infinite }
+      .f8 { animation:fade8 20s infinite }
+      .f9 { animation:fade9 20s infinite }
+      .f10 { animation:fade10 20s infinite }
       .cur { animation:blink 1s infinite }
       .wv { stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw-wave 6s linear infinite }
     </style>
@@ -110,8 +110,8 @@
 
     <path class="wv" d="M 15,420 L 40,420 L 48,400 L 56,440 L 64,420 L 110,420 L 118,380 L 126,450 L 134,420 L 175,420 L 183,410 L 191,430 L 199,420 L 245,420" stroke="#00ffcc" stroke-width="1.5" fill="none" opacity=".6"/>
 
-    <text x="35" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">CPU: 14.8%</text>
-    <text x="140" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">MEM: 5.4G/16G</text>
+    <text x="35" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold">CPU: 14.8%</text>
+    <text x="140" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold">MEM: 5.4G/16G</text>
 
     <rect x="25" y="475" width="200" height="20" rx="4" fill="#031124" fill-opacity=".85" stroke="#00f5ff" stroke-opacity=".3" stroke-width="1"/>
     <text x="125" y="489" fill="#00f5ff" font-size="9" font-family="Consolas,'Courier New',monospace" text-anchor="middle" font-weight="bold" opacity=".9">SYED_ABDULLAH // NUST_CS</text>
@@ -131,7 +131,7 @@
   <circle cx="365" cy="43" r="5" fill="#ff5f56"/>
   <circle cx="381" cy="43" r="5" fill="#ffbd2e"/>
   <circle cx="397" cy="43" r="5" fill="#27c93f"/>
-  <text x="580" y="47" fill="#8892b0" font-size="11" font-family="Consolas,'Courier New',monospace" text-anchor="middle" font-weight="bold">syed.abdullah@github:~/profile</text>
+  <text x="580" y="47" fill="#8892b0" font-size="11" font-family="Consolas,'Courier New',monospace" text-anchor="middle" font-weight="700">syed.abdullah@github:~/profile</text>
 
   <line x1="800" y1="35" x2="805" y2="35" stroke="#00f5ff" stroke-width="1" opacity=".5"/>
   <line x1="805" y1="35" x2="805" y2="40" stroke="#00f5ff" stroke-width="1" opacity=".5"/>
@@ -139,56 +139,56 @@
   <g transform="translate(10,0)">
     <text x="365" y="85" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ boot</text>
 
-    <g class="o1">
-      <text x="365" y="105" fill="#00ff88" font-size="11" font-family="Consolas,'Courier New',monospace">Initializing Developer Environment...</text>
+    <g class="f1">
+      <text x="365" y="105" fill="#00ff88" font-size="11" font-family="Consolas,'Courier New',monospace" font-weight="600">&#x1F4E1; Initializing Developer Environment...</text>
     </g>
-    <g class="o2">
-      <text x="365" y="125" fill="#00f5ff" font-size="11" font-family="Consolas,'Courier New',monospace">100%  [System Ready]</text>
+    <g class="f2">
+      <text x="365" y="125" fill="#00f5ff" font-size="11" font-family="Consolas,'Courier New',monospace" font-weight="600">&#x2705; 100%  [System Ready]</text>
     </g>
 
     <text x="365" y="155" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ whoami</text>
 
-    <g class="o3">
-      <text x="365" y="175" fill="#e0ffff" font-size="13" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">Syed Abdullah Yaqoob</text>
+    <g class="f3">
+      <text x="365" y="175" fill="#e0ffff" font-size="13" font-family="Consolas,'Courier New',monospace" font-weight="700" filter="url(#glow)">&#x1F464; Syed Abdullah Yaqoob</text>
     </g>
-    <g class="o4">
-      <text x="365" y="195" fill="#8892b0" font-size="11" font-family="Consolas,'Courier New',monospace">BS Computer Science @ NUST</text>
+    <g class="f4">
+      <text x="365" y="195" fill="#8892b0" font-size="11" font-family="Consolas,'Courier New',monospace" font-weight="600">&#x1F393; BS Computer Science @ NUST</text>
     </g>
 
     <text x="365" y="225" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ skills</text>
 
-    <g class="o5" font-size="11" fill="#00f5ff" font-family="Consolas,'Courier New',monospace">
-      <text x="365" y="245">Python  TypeScript  Node.js  React  Next.js</text>
-      <text x="365" y="265">AWS  Docker  K8s  LLMs  FastAPI  PostgreSQL</text>
+    <g class="f5" font-size="11" fill="#00f5ff" font-family="Consolas,'Courier New',monospace" font-weight="600">
+      <text x="365" y="245">&#x1F4BB; Python  TypeScript  Node.js  React  Next.js</text>
+      <text x="365" y="265">&#x2601;&#xFE0F; AWS  Docker  K8s  LLMs  FastAPI  PostgreSQL</text>
     </g>
 
     <text x="365" y="295" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ learning</text>
 
-    <g class="o6" font-size="11" fill="#ffdd67" font-family="Consolas,'Courier New',monospace">
-      <text x="365" y="315">LLM Pipelines  Cloud-Native  Fintech  AI</text>
+    <g class="f6" font-size="11" fill="#ffdd67" font-family="Consolas,'Courier New',monospace" font-weight="600">
+      <text x="365" y="315">&#x1F4DA; LLM Pipelines  Cloud-Native  Fintech  AI</text>
     </g>
 
     <text x="365" y="345" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ current_status</text>
 
-    <g class="o7" font-size="11" fill="#e0ffff" opacity=".8" font-family="Consolas,'Courier New',monospace">
-      <text x="365" y="365">Building AI meets infrastructure</text>
-      <text x="365" y="382">Shipping LLM inference on AWS Lambda</text>
-      <text x="365" y="399">3.77 GPA — NUST CS</text>
+    <g class="f7" font-size="11" fill="#e0ffff" opacity=".9" font-family="Consolas,'Courier New',monospace" font-weight="600">
+      <text x="365" y="365">&#x1F680; Building AI meets infrastructure</text>
+      <text x="365" y="382">&#x1F30D; Shipping LLM inference on AWS Lambda</text>
+      <text x="365" y="399">&#x1F3AF; 3.77 GPA &mdash; NUST CS</text>
     </g>
 
     <text x="365" y="429" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ motto</text>
 
-    <g class="o8" font-size="11" fill="#00ff88" font-weight="bold" font-family="Consolas,'Courier New',monospace">
-      <text x="365" y="449" filter="url(#glow)">Build.  Ship.  Scale.  Repeat.</text>
+    <g class="f8" font-size="11" fill="#00ff88" font-weight="700" font-family="Consolas,'Courier New',monospace">
+      <text x="365" y="449" filter="url(#glow)">&#x1F3AF; Build.  Ship.  Scale.  Repeat.</text>
     </g>
 
     <text x="365" y="479" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ connect</text>
 
-    <g class="o9">
-      <text x="365" y="499" fill="#fff" font-size="11" font-family="Consolas,'Courier New',monospace">Open to SWE / AI / Backend Intern roles!</text>
+    <g class="f9">
+      <text x="365" y="499" fill="#fff" font-size="11" font-family="Consolas,'Courier New',monospace" font-weight="600">&#x1F4E7; Open to SWE / AI / Backend Intern roles!</text>
     </g>
-    <g class="o10">
-      <text x="365" y="524" fill="#00ffcc" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="bold">STATUS : ONLINE <tspan class="cur" fill="#00ffcc">_</tspan></text>
+    <g class="f10">
+      <text x="365" y="524" fill="#00ffcc" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="700">&#x2705; STATUS : ONLINE <tspan class="cur" fill="#00ffcc">_</tspan></text>
     </g>
   </g>
 </svg>
