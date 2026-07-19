@@ -1,155 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="600" viewBox="0 0 850 600" fill="none">
   <defs>
-    <!-- Fonts -->
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
-      
-      text {
-        font-family: 'Fira Code', 'Courier New', monospace;
-      }
-      
-      
-    /* Typing Caret Animation */
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    
-    /* Holographic Scanning Line */
-    @keyframes scan {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(300px); }
-      100% { transform: translateY(0); }
-    }
-    
-    /* Glowing Border Pulse */
-    @keyframes pulse-border {
-      0%, 100% { stroke-opacity: 0.3; filter: drop-shadow(0 0 2px rgba(0, 229, 255, 0.2)); }
-      50% { stroke-opacity: 0.8; filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.6)); }
-    }
-    
-    /* Particles */
-    @keyframes float-p1 {
-      0%, 100% { transform: translate(0, 0); opacity: 0.2; }
-      50% { transform: translate(10px, -20px); opacity: 0.7; }
-    }
-    
-    @keyframes float-p2 {
-      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
-      50% { transform: translate(-15px, -15px); opacity: 0.8; }
-    }
-    
-    /* Global Reveal From Bottom to Top */
-    @keyframes reveal-up {
-      0% { transform: translateY(40px); opacity: 0; }
-      100% { transform: translateY(0); opacity: 1; }
-    }
-    
-    .reveal-container {
-      animation: reveal-up 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    }
-    
-    /* Typing Timings for 20-second Loop */
-    @keyframes type-cmd1 { 0%, 5% { width: 0; } 9%, 100% { width: 150px; } }
-    @keyframes show-out1 { 0%, 10% { opacity: 0; } 11%, 100% { opacity: 1; } }
-    @keyframes show-out2 { 0%, 12% { opacity: 0; } 13%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd2 { 0%, 15% { width: 0; } 19%, 100% { width: 150px; } }
-    @keyframes show-out3 { 0%, 21% { opacity: 0; } 22%, 100% { opacity: 1; } }
-    @keyframes show-out4 { 0%, 23% { opacity: 0; } 24%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd3 { 0%, 26% { width: 0; } 30%, 100% { width: 150px; } }
-    @keyframes show-out5 { 0%, 32% { opacity: 0; } 33%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd4 { 0%, 35% { width: 0; } 39%, 100% { width: 150px; } }
-    @keyframes show-out6 { 0%, 41% { opacity: 0; } 42%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd5 { 0%, 44% { width: 0; } 48%, 100% { width: 150px; } }
-    @keyframes show-out7 { 0%, 50% { opacity: 0; } 51%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd6 { 0%, 53% { width: 0; } 57%, 100% { width: 150px; } }
-    @keyframes show-out8 { 0%, 59% { opacity: 0; } 60%, 100% { opacity: 1; } }
-    
-    @keyframes type-cmd7 { 0%, 62% { width: 0; } 66%, 100% { width: 150px; } }
-    @keyframes show-out9 { 0%, 68% { opacity: 0; } 69%, 100% { opacity: 1; } }
-    @keyframes show-out10 { 0%, 71% { opacity: 0; } 72%, 100% { opacity: 1; } }
-    
-    .cursor {
-      animation: blink 1s infinite;
-    }
-    
-    .scanline {
-      animation: scan 6s infinite ease-in-out;
-    }
-    
-    .pulsing-border {
-      animation: pulse-border 4s infinite ease-in-out;
-    }
-    
-    .particle1 {
-      animation: float-p1 5s infinite ease-in-out;
-    }
-    
-    .particle2 {
-      animation: float-p2 7s infinite ease-in-out;
-    }
-    
-    .cmd-line1 { animation: type-cmd1 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line1 { animation: show-out1 20s infinite; }
-    .out-line2 { animation: show-out2 20s infinite; }
-    
-    .cmd-line2 { animation: type-cmd2 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line3 { animation: show-out3 20s infinite; }
-    .out-line4 { animation: show-out4 20s infinite; }
-    
-    .cmd-line3 { animation: type-cmd3 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line5 { animation: show-out5 20s infinite; }
-    
-    .cmd-line4 { animation: type-cmd4 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line6 { animation: show-out6 20s infinite; }
-    
-    .cmd-line5 { animation: type-cmd5 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line7 { animation: show-out7 20s infinite; }
-    
-    .cmd-line6 { animation: type-cmd6 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line8 { animation: show-out8 20s infinite; }
-    
-    .cmd-line7 { animation: type-cmd7 20s infinite; overflow: hidden; display: inline-block; }
-    .out-line9 { animation: show-out9 20s infinite; }
-    .out-line10 { animation: show-out10 20s infinite; }
-    
-    /* Waveform Animation */
-    @keyframes draw-wave {
-      0% { stroke-dashoffset: 1000; }
-      100% { stroke-dashoffset: 0; }
-    }
-    .wave-path {
-      stroke-dasharray: 1000;
-      stroke-dashoffset: 1000;
-      animation: draw-wave 6s linear infinite;
-    }
-    
+      text { font-family: 'Fira Code', 'Courier New', monospace; }
+      @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
+      @keyframes scan { 0% { transform:translateY(0); } 50% { transform:translateY(540px); } 100% { transform:translateY(0); } }
+      @keyframes pulse-border { 0%,100% { stroke-opacity:0.3; filter:drop-shadow(0 0 2px rgba(0,229,255,0.2)); } 50% { stroke-opacity:0.8; filter:drop-shadow(0 0 8px rgba(0,229,255,0.6)); } }
+      @keyframes float-p1 { 0%,100% { transform:translate(0,0); opacity:0.2; } 50% { transform:translate(10px,-20px); opacity:0.7; } }
+      @keyframes float-p2 { 0%,100% { transform:translate(0,0); opacity:0.3; } 50% { transform:translate(-15px,-15px); opacity:0.8; } }
+      @keyframes reveal-up { 0% { transform:translateY(40px); opacity:0; } 100% { transform:translateY(0); opacity:1; } }
+      .reveal-container { animation: reveal-up 1.6s cubic-bezier(0.16,1,0.3,1) forwards; }
+      @keyframes type-cmd1 { 0%,5% { width:0; } 9%,100% { width:200px; } }
+      @keyframes show-out1 { 0%,10% { opacity:0; } 11%,100% { opacity:1; } }
+      @keyframes show-out2 { 0%,12% { opacity:0; } 13%,100% { opacity:1; } }
+      @keyframes type-cmd2 { 0%,15% { width:0; } 19%,100% { width:200px; } }
+      @keyframes show-out3 { 0%,21% { opacity:0; } 22%,100% { opacity:1; } }
+      @keyframes show-out4 { 0%,23% { opacity:0; } 24%,100% { opacity:1; } }
+      @keyframes type-cmd3 { 0%,26% { width:0; } 30%,100% { width:200px; } }
+      @keyframes show-out5 { 0%,32% { opacity:0; } 33%,100% { opacity:1; } }
+      @keyframes type-cmd4 { 0%,35% { width:0; } 39%,100% { width:200px; } }
+      @keyframes show-out6 { 0%,41% { opacity:0; } 42%,100% { opacity:1; } }
+      @keyframes type-cmd5 { 0%,44% { width:0; } 48%,100% { width:200px; } }
+      @keyframes show-out7 { 0%,50% { opacity:0; } 51%,100% { opacity:1; } }
+      @keyframes type-cmd6 { 0%,53% { width:0; } 57%,100% { width:200px; } }
+      @keyframes show-out8 { 0%,59% { opacity:0; } 60%,100% { opacity:1; } }
+      @keyframes type-cmd7 { 0%,62% { width:0; } 66%,100% { width:200px; } }
+      @keyframes show-out9 { 0%,68% { opacity:0; } 69%,100% { opacity:1; } }
+      @keyframes show-out10 { 0%,71% { opacity:0; } 72%,100% { opacity:1; } }
+      .cursor { animation:blink 1s infinite; }
+      .scanline { animation:scan 6s infinite ease-in-out; }
+      .pulsing-border { animation:pulse-border 4s infinite ease-in-out; }
+      .particle1 { animation:float-p1 5s infinite ease-in-out; }
+      .particle2 { animation:float-p2 7s infinite ease-in-out; }
+      .cmd-line1 { animation:type-cmd1 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line1 { animation:show-out1 20s infinite; }
+      .out-line2 { animation:show-out2 20s infinite; }
+      .cmd-line2 { animation:type-cmd2 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line3 { animation:show-out3 20s infinite; }
+      .out-line4 { animation:show-out4 20s infinite; }
+      .cmd-line3 { animation:type-cmd3 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line5 { animation:show-out5 20s infinite; }
+      .cmd-line4 { animation:type-cmd4 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line6 { animation:show-out6 20s infinite; }
+      .cmd-line5 { animation:type-cmd5 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line7 { animation:show-out7 20s infinite; }
+      .cmd-line6 { animation:type-cmd6 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line8 { animation:show-out8 20s infinite; }
+      .cmd-line7 { animation:type-cmd7 20s infinite; overflow:hidden; display:inline-block; }
+      .out-line9 { animation:show-out9 20s infinite; }
+      .out-line10 { animation:show-out10 20s infinite; }
+      @keyframes draw-wave { 0% { stroke-dashoffset:1000; } 100% { stroke-dashoffset:0; } }
+      .wave-path { stroke-dasharray:1000; stroke-dashoffset:1000; animation:draw-wave 6s linear infinite; }
+      @keyframes code-scroll { 0% { transform:translateY(0); } 100% { transform:translateY(-300px); } }
+      .code-scroll { animation:code-scroll 12s linear infinite; }
     </style>
-    
-    <!-- Gradients -->
     <linearGradient id="dark-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#030812"/>
       <stop offset="50%" stop-color="#050e1e"/>
       <stop offset="100%" stop-color="#0a192f"/>
     </linearGradient>
-    
     <linearGradient id="card-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.8"/>
       <stop offset="50%" stop-color="#0055ff" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#00f5ff" stop-opacity="0.8"/>
     </linearGradient>
-    
     <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#00f5ff" stop-opacity="0"/>
       <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
     </linearGradient>
-    
     <linearGradient id="shine-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
@@ -157,255 +76,211 @@
       <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Filters -->
     <filter id="neon-glow" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    
     <filter id="subtle-glow" x="-5%" y="-5%" width="110%" height="110%">
       <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <!-- Grid Pattern -->
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#00f5ff" stroke-width="1" stroke-opacity="0.04"/>
     </pattern>
-    
-    <!-- Clipping paths for typing animations -->
-    <clipPath id="clip-cmd1">
-      <rect class="cmd-line1" x="535" y="70" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd2">
-      <rect class="cmd-line2" x="535" y="140" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd3">
-      <rect class="cmd-line3" x="535" y="210" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd4">
-      <rect class="cmd-line4" x="535" y="280" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd5">
-      <rect class="cmd-line5" x="535" y="330" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd6">
-      <rect class="cmd-line6" x="535" y="415" height="25" width="200"/>
-    </clipPath>
-    <clipPath id="clip-cmd7">
-      <rect class="cmd-line7" x="535" y="465" height="25" width="200"/>
-    </clipPath>
+    <clipPath id="clip-cmd1"><rect class="cmd-line1" x="535" y="70" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd2"><rect class="cmd-line2" x="535" y="140" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd3"><rect class="cmd-line3" x="535" y="210" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd4"><rect class="cmd-line4" x="535" y="280" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd5"><rect class="cmd-line5" x="535" y="330" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd6"><rect class="cmd-line6" x="535" y="415" height="25" width="200"/></clipPath>
+    <clipPath id="clip-cmd7"><rect class="cmd-line7" x="535" y="465" height="25" width="200"/></clipPath>
   </defs>
 
   <!-- Background -->
   <rect width="850" height="600" rx="16" fill="url(#dark-bg-grad)"/>
   <rect width="850" height="600" rx="16" fill="url(#grid)"/>
-
-  <!-- Background Cyberpunk Accents -->
   <circle cx="100" cy="150" r="120" fill="#0055ff" opacity="0.06" filter="url(#neon-glow)"/>
   <circle cx="750" cy="450" r="160" fill="#00f5ff" opacity="0.04" filter="url(#neon-glow)"/>
 
-  <!-- ================= REVEAL CONTAINER (BOTTOM-TO-TOP EFFECT) ================= -->
   <g class="reveal-container">
-  
-    <!-- ================= LEFT AREA: PORTRAIT & HUD CARD ================= -->
-    <!-- Outer glowing card borders -->
+    <!-- ================= LEFT: CODE EDITOR / PROFILE PANEL ================= -->
     <rect x="35" y="30" width="280" height="540" rx="12" fill="#06152d" fill-opacity="0.4" stroke="url(#card-border-grad)" stroke-width="1.5" class="pulsing-border"/>
     
-    <!-- Holographic Portrait Container -->
     <g transform="translate(45, 45)">
       <!-- Corner brackets -->
       <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00f5ff" stroke-width="2"/>
       <path d="M 250 10 L 250 0 L 240 0" fill="none" stroke="#00f5ff" stroke-width="2"/>
       <path d="M 0 490 L 0 500 L 10 500" fill="none" stroke="#00f5ff" stroke-width="2"/>
       <path d="M 250 490 L 250 500 L 240 500" fill="none" stroke="#00f5ff" stroke-width="2"/>
-      
-      <!-- HUD decorative tags -->
+
       <text x="15" y="20" fill="#00f5ff" font-size="8" opacity="0.6">SYS.SCAN.ACTIVE</text>
-      <text x="195" y="20" fill="#00ffcc" font-size="8" opacity="0.6" font-weight="bold">LM-REC</text>
+      <text x="195" y="20" fill="#00ffcc" font-size="8" opacity="0.6" font-weight="bold">NUST-CS</text>
       <circle cx="232" cy="17" r="3" fill="#00ffcc">
         <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
       </circle>
 
-      <!-- SVG Dot Matrix Portrait Group -->
-      <g transform="translate(0, 20)">
-        <g transform="translate(0, 10)">
-          <g id="portrait-scanlines" stroke-linecap="round" fill="none">
-  <path d="M 139.1,133.9 H 139.3 M 131.3,139.5 H 141.7 M 128.7,142.3 H 131.3 M 141.7,142.3 H 144.3 M 126.1,145.1 H 126.3 M 146.9,145.1 H 147.1 M 123.5,148.0 H 123.7 M 149.5,148.0 H 149.7 M 120.9,150.8 H 121.1 M 152.1,150.8 H 152.3 M 118.3,153.6 H 118.5 M 115.7,159.2 H 115.9 M 159.9,159.2 H 160.1 M 128.7,162.0 H 128.9 M 146.9,162.0 H 147.1 M 157.3,162.0 H 157.5 M 110.5,164.9 H 113.1 M 123.5,164.9 H 128.7 M 146.9,164.9 H 149.5 M 162.5,164.9 H 162.7 M 110.5,167.7 H 110.7 M 123.5,167.7 H 131.3 M 146.9,167.7 H 152.1 M 162.5,167.7 H 162.7 M 107.9,170.5 H 108.1 M 123.5,170.5 H 131.3 M 144.3,170.5 H 152.1 M 126.1,173.3 H 126.3 M 149.5,173.3 H 149.7 M 159.9,173.3 H 160.1 M 167.7,173.3 H 167.9 M 92.3,176.1 H 92.5 M 105.3,176.1 H 105.5 M 113.1,176.1 H 120.9 M 154.7,176.1 H 162.5 M 167.7,176.1 H 167.9 M 92.3,179.0 H 92.5 M 105.3,179.0 H 105.5 M 131.3,179.0 H 131.5 M 139.1,179.0 H 139.3 M 146.9,179.0 H 147.1 M 167.7,179.0 H 167.9 M 92.3,181.8 H 92.5 M 102.7,181.8 H 102.9 M 118.3,181.8 H 120.9 M 139.1,181.8 H 139.3 M 154.7,181.8 H 157.3 M 167.7,181.8 H 167.9 M 92.3,184.6 H 92.5 M 105.3,184.6 H 105.5 M 139.1,184.6 H 139.3 M 92.3,187.4 H 92.5 M 139.1,187.4 H 139.3 M 94.9,190.2 H 95.1 M 100.1,190.2 H 100.3 M 172.9,190.2 H 173.1 M 94.9,193.0 H 95.1 M 172.9,193.0 H 173.1 M 89.7,195.9 H 89.9 M 94.9,195.9 H 97.5 M 172.9,195.9 H 173.1 M 97.5,198.7 H 97.7 M 92.3,201.5 H 92.5 M 97.5,201.5 H 97.7 M 92.3,204.3 H 92.5 M 97.5,204.3 H 100.1 M 120.9,204.3 H 123.5 M 172.9,204.3 H 173.1 M 94.9,207.1 H 95.1 M 100.1,207.1 H 100.3 M 172.9,207.1 H 173.1 M 94.9,210.0 H 102.7 M 97.5,212.8 H 102.7 M 170.3,212.8 H 170.5 M 89.7,215.6 H 89.9 M 97.5,215.6 H 105.3 M 167.7,215.6 H 170.3 M 89.7,218.4 H 92.3 M 102.7,218.4 H 102.9 M 107.9,218.4 H 108.1 M 165.1,218.4 H 165.3 M 89.7,221.2 H 92.3 M 102.7,221.2 H 107.9 M 162.5,221.2 H 162.7 M 167.7,221.2 H 167.9 M 92.3,224.0 H 94.9 M 105.3,224.0 H 110.5 M 159.9,224.0 H 160.1 M 167.7,224.0 H 167.9 M 92.3,226.9 H 94.9 M 107.9,226.9 H 115.7 M 154.7,226.9 H 157.3 M 165.1,226.9 H 165.3 M 92.3,229.7 H 94.9 M 110.5,229.7 H 115.7 M 152.1,229.7 H 152.3 M 159.9,229.7 H 165.1 M 92.3,232.5 H 97.5 M 115.7,232.5 H 120.9 M 157.3,232.5 H 162.5 M 94.9,235.3 H 97.5 M 118.3,235.3 H 126.1 M 146.9,235.3 H 154.7 M 159.9,235.3 H 162.5 M 97.5,238.1 H 97.7 M 113.1,238.1 H 146.9 M 159.9,238.1 H 160.1 M 97.5,241.0 H 100.1 M 115.7,241.0 H 136.5 M 157.3,241.0 H 157.5 M 100.1,243.8 H 100.3 M 118.3,243.8 H 133.9 M 100.1,246.6 H 100.3 M 120.9,246.6 H 136.5 M 152.1,249.4 H 152.3 M 149.5,252.2 H 149.7 M 146.9,255.0 H 147.1 M 191.1,255.0 H 191.3 M 81.9,257.9 H 82.1 M 144.3,257.9 H 146.9 M 191.1,257.9 H 193.7 M 81.9,260.7 H 82.1 M 141.7,260.7 H 144.3 M 193.7,260.7 H 193.9 M 81.9,263.5 H 82.1 M 133.9,263.5 H 141.7 M 81.9,266.3 H 82.1 M 133.9,266.3 H 136.5 M 175.5,266.3 H 175.7 M 81.9,269.1 H 84.5 M 172.9,269.1 H 173.1 M 81.9,272.0 H 84.5 M 185.9,272.0 H 186.1 M 84.5,274.8 H 84.7 M 196.3,274.8 H 196.5 M 87.1,277.6 H 87.3 M 183.3,277.6 H 183.5 M 87.1,280.4 H 89.7 M 180.7,280.4 H 183.3 M 89.7,283.2 H 89.9 M 159.9,283.2 H 162.5 M 180.7,283.2 H 183.3 M 159.9,286.0 H 160.1 M 183.3,286.0 H 183.5 M 157.3,288.9 H 157.5 M 178.1,288.9 H 178.3 M 154.7,291.7 H 154.9 M 175.5,291.7 H 178.1 M 97.5,294.5 H 97.7 M 152.1,294.5 H 154.7 M 175.5,294.5 H 175.7 M 100.1,297.3 H 100.3 M 149.5,297.3 H 152.1 M 102.7,300.1 H 102.9 M 146.9,300.1 H 149.5 M 170.3,300.1 H 170.5 M 105.3,303.0 H 105.5 M 144.3,303.0 H 146.9 M 170.3,303.0 H 170.5 M 224.9,303.0 H 225.1 M 105.3,305.8 H 107.9 M 141.7,305.8 H 144.3 M 170.3,305.8 H 170.5 M 224.9,305.8 H 225.1 M 97.5,308.6 H 97.7 M 107.9,308.6 H 110.5 M 141.7,308.6 H 141.9 M 167.7,308.6 H 170.3 M 224.9,308.6 H 225.1" stroke="#0d4b75" stroke-width="0.7" opacity="0.85"/>
-  <path d="M 102.7,131.0 H 102.9 M 136.5,131.0 H 136.7 M 133.9,133.9 H 134.1 M 131.3,136.7 H 131.5 M 141.7,136.7 H 141.9 M 102.7,139.5 H 102.9 M 128.7,139.5 H 128.9 M 144.3,139.5 H 144.5 M 100.1,142.3 H 102.7 M 126.1,142.3 H 126.3 M 133.9,142.3 H 139.1 M 146.9,142.3 H 147.1 M 100.1,145.1 H 100.3 M 123.5,145.1 H 123.7 M 128.7,145.1 H 128.9 M 141.7,145.1 H 144.3 M 149.5,145.1 H 149.7 M 97.5,148.0 H 100.1 M 120.9,148.0 H 121.1 M 126.1,148.0 H 126.3 M 146.9,148.0 H 147.1 M 152.1,148.0 H 152.3 M 92.3,150.8 H 92.5 M 97.5,150.8 H 100.1 M 118.3,150.8 H 118.5 M 123.5,150.8 H 123.7 M 149.5,150.8 H 149.7 M 154.7,150.8 H 154.9 M 92.3,153.6 H 92.5 M 97.5,153.6 H 100.1 M 115.7,153.6 H 115.9 M 120.9,153.6 H 121.1 M 154.7,153.6 H 157.3 M 175.5,153.6 H 175.7 M 89.7,156.4 H 100.1 M 115.7,156.4 H 118.3 M 157.3,156.4 H 157.5 M 175.5,156.4 H 175.7 M 180.7,156.4 H 180.9 M 89.7,159.2 H 100.1 M 113.1,159.2 H 113.3 M 118.3,159.2 H 126.1 M 149.5,159.2 H 154.7 M 175.5,159.2 H 175.7 M 180.7,159.2 H 180.9 M 89.7,162.0 H 100.1 M 110.5,162.0 H 110.7 M 131.3,162.0 H 131.5 M 162.5,162.0 H 162.7 M 175.5,162.0 H 175.7 M 180.7,162.0 H 180.9 M 89.7,164.9 H 97.5 M 115.7,164.9 H 120.9 M 131.3,164.9 H 133.9 M 144.3,164.9 H 144.5 M 152.1,164.9 H 159.9 M 175.5,164.9 H 178.1 M 183.3,164.9 H 183.5 M 89.7,167.7 H 100.1 M 107.9,167.7 H 108.1 M 113.1,167.7 H 120.9 M 133.9,167.7 H 134.1 M 144.3,167.7 H 144.5 M 154.7,167.7 H 159.9 M 165.1,167.7 H 165.3 M 178.1,167.7 H 183.3 M 89.7,170.5 H 100.1 M 133.9,170.5 H 134.1 M 167.7,170.5 H 167.9 M 178.1,170.5 H 178.3 M 183.3,170.5 H 183.5 M 89.7,173.3 H 97.5 M 105.3,173.3 H 105.5 M 123.5,173.3 H 123.7 M 128.7,173.3 H 133.9 M 144.3,173.3 H 146.9 M 152.1,173.3 H 152.3 M 178.1,173.3 H 178.3 M 183.3,173.3 H 183.5 M 89.7,176.1 H 89.9 M 94.9,176.1 H 97.5 M 123.5,176.1 H 123.7 M 131.3,176.1 H 144.3 M 152.1,176.1 H 152.3 M 178.1,176.1 H 178.3 M 183.3,176.1 H 183.5 M 87.1,179.0 H 89.7 M 94.9,179.0 H 97.5 M 102.7,179.0 H 102.9 M 107.9,179.0 H 128.7 M 149.5,179.0 H 165.1 M 170.3,179.0 H 170.5 M 180.7,179.0 H 183.3 M 87.1,181.8 H 89.7 M 94.9,181.8 H 97.5 M 105.3,181.8 H 105.5 M 113.1,181.8 H 115.7 M 159.9,181.8 H 165.1 M 170.3,181.8 H 170.5 M 180.7,181.8 H 183.3 M 87.1,184.6 H 89.7 M 94.9,184.6 H 100.1 M 180.7,184.6 H 183.3 M 87.1,187.4 H 89.7 M 94.9,187.4 H 95.1 M 100.1,187.4 H 100.3 M 172.9,187.4 H 173.1 M 180.7,187.4 H 183.3 M 87.1,190.2 H 92.3 M 97.5,190.2 H 97.7 M 178.1,190.2 H 183.3 M 89.7,193.0 H 92.3 M 97.5,193.0 H 97.7 M 178.1,193.0 H 183.3 M 92.3,195.9 H 92.5 M 175.5,195.9 H 180.7 M 89.7,198.7 H 94.9 M 175.5,198.7 H 180.7 M 89.7,201.5 H 89.9 M 94.9,201.5 H 95.1 M 175.5,201.5 H 175.7 M 89.7,204.3 H 89.9 M 94.9,204.3 H 95.1 M 175.5,204.3 H 175.7 M 185.9,204.3 H 186.1 M 87.1,207.1 H 92.3 M 97.5,207.1 H 97.7 M 175.5,207.1 H 175.7 M 185.9,207.1 H 186.1 M 87.1,210.0 H 92.3 M 172.9,210.0 H 175.5 M 185.9,210.0 H 186.1 M 87.1,212.8 H 94.9 M 172.9,212.8 H 173.1 M 183.3,212.8 H 185.9 M 87.1,215.6 H 87.3 M 92.3,215.6 H 94.9 M 172.9,215.6 H 173.1 M 183.3,215.6 H 185.9 M 87.1,218.4 H 87.3 M 94.9,218.4 H 100.1 M 170.3,218.4 H 172.9 M 183.3,218.4 H 185.9 M 87.1,221.2 H 87.3 M 94.9,221.2 H 100.1 M 170.3,221.2 H 170.5 M 180.7,221.2 H 183.3 M 87.1,224.0 H 89.7 M 97.5,224.0 H 102.7 M 170.3,224.0 H 170.5 M 180.7,224.0 H 183.3 M 87.1,226.9 H 89.7 M 97.5,226.9 H 105.3 M 167.7,226.9 H 167.9 M 180.7,226.9 H 183.3 M 87.1,229.7 H 89.7 M 97.5,229.7 H 107.9 M 180.7,229.7 H 183.3 M 84.5,232.5 H 89.7 M 100.1,232.5 H 113.1 M 165.1,232.5 H 165.3 M 178.1,232.5 H 183.3 M 79.3,235.3 H 79.5 M 87.1,235.3 H 92.3 M 100.1,235.3 H 115.7 M 157.3,235.3 H 157.5 M 165.1,235.3 H 165.3 M 178.1,235.3 H 180.7 M 76.7,238.1 H 79.3 M 84.5,238.1 H 94.9 M 100.1,238.1 H 110.5 M 149.5,238.1 H 157.3 M 162.5,238.1 H 162.7 M 178.1,238.1 H 180.7 M 71.5,241.0 H 76.7 M 84.5,241.0 H 94.9 M 102.7,241.0 H 113.1 M 139.1,241.0 H 154.7 M 159.9,241.0 H 160.1 M 175.5,241.0 H 180.7 M 185.9,241.0 H 186.1 M 71.5,243.8 H 71.7 M 84.5,243.8 H 97.5 M 102.7,243.8 H 115.7 M 136.5,243.8 H 157.3 M 175.5,243.8 H 185.9 M 193.7,243.8 H 193.9 M 68.9,246.6 H 69.1 M 87.1,246.6 H 97.5 M 102.7,246.6 H 118.3 M 139.1,246.6 H 154.7 M 175.5,246.6 H 178.1 M 183.3,246.6 H 185.9 M 193.7,246.6 H 193.9 M 66.3,249.4 H 66.5 M 87.1,249.4 H 149.5 M 172.9,249.4 H 183.3 M 193.7,249.4 H 193.9 M 79.3,252.2 H 81.9 M 89.7,252.2 H 146.9 M 152.1,252.2 H 152.3 M 172.9,252.2 H 175.5 M 180.7,252.2 H 183.3 M 191.1,252.2 H 193.7 M 79.3,255.0 H 81.9 M 92.3,255.0 H 144.3 M 149.5,255.0 H 149.7 M 162.5,255.0 H 162.7 M 172.9,255.0 H 175.5 M 180.7,255.0 H 183.3 M 193.7,255.0 H 193.9 M 79.3,257.9 H 79.5 M 94.9,257.9 H 120.9 M 133.9,257.9 H 141.7 M 157.3,257.9 H 159.9 M 170.3,257.9 H 172.9 M 178.1,257.9 H 180.7 M 79.3,260.7 H 79.5 M 100.1,260.7 H 115.7 M 128.7,260.7 H 139.1 M 152.1,260.7 H 159.9 M 170.3,260.7 H 170.5 M 178.1,260.7 H 178.3 M 188.5,260.7 H 191.1 M 79.3,263.5 H 79.5 M 102.7,263.5 H 115.7 M 123.5,263.5 H 131.3 M 149.5,263.5 H 159.9 M 167.7,263.5 H 170.3 M 175.5,263.5 H 178.1 M 188.5,263.5 H 196.3 M 79.3,266.3 H 79.5 M 84.5,266.3 H 84.7 M 105.3,266.3 H 131.3 M 139.1,266.3 H 139.3 M 144.3,266.3 H 157.3 M 165.1,266.3 H 172.9 M 178.1,266.3 H 178.3 M 188.5,266.3 H 188.7 M 193.7,266.3 H 196.3 M 230.1,266.3 H 230.3 M 45.5,269.1 H 45.7 M 79.3,269.1 H 79.5 M 110.5,269.1 H 133.9 M 141.7,269.1 H 154.7 M 165.1,269.1 H 170.3 M 175.5,269.1 H 175.7 M 185.9,269.1 H 188.5 M 193.7,269.1 H 196.3 M 230.1,269.1 H 230.3 M 45.5,272.0 H 48.1 M 79.3,272.0 H 79.5 M 87.1,272.0 H 87.3 M 92.3,272.0 H 92.5 M 113.1,272.0 H 131.3 M 139.1,272.0 H 152.1 M 162.5,272.0 H 175.5 M 188.5,272.0 H 188.7 M 193.7,272.0 H 196.3 M 230.1,272.0 H 230.3 M 45.5,274.8 H 48.1 M 76.7,274.8 H 81.9 M 87.1,274.8 H 87.3 M 92.3,274.8 H 94.9 M 115.7,274.8 H 123.5 M 133.9,274.8 H 152.1 M 162.5,274.8 H 175.5 M 183.3,274.8 H 185.9 M 193.7,274.8 H 193.9 M 230.1,274.8 H 230.3 M 240.5,274.8 H 240.7 M 45.5,277.6 H 48.1 M 76.7,277.6 H 84.5 M 89.7,277.6 H 89.9 M 94.9,277.6 H 102.7 M 128.7,277.6 H 146.9 M 159.9,277.6 H 172.9 M 180.7,277.6 H 180.9 M 185.9,277.6 H 186.1 M 196.3,277.6 H 198.9 M 227.5,277.6 H 230.1 M 240.5,277.6 H 240.7 M 40.3,280.4 H 40.5 M 45.5,280.4 H 48.1 M 76.7,280.4 H 84.5 M 92.3,280.4 H 110.5 M 120.9,280.4 H 144.3 M 159.9,280.4 H 170.3 M 185.9,280.4 H 186.1 M 196.3,280.4 H 198.9 M 227.5,280.4 H 230.1 M 240.5,280.4 H 240.7 M 40.3,283.2 H 40.5 M 48.1,283.2 H 48.3 M 76.7,283.2 H 87.1 M 92.3,283.2 H 144.3 M 157.3,283.2 H 157.5 M 165.1,283.2 H 170.3 M 178.1,283.2 H 178.3 M 196.3,283.2 H 198.9 M 214.5,283.2 H 214.7 M 227.5,283.2 H 230.1 M 240.5,283.2 H 243.1 M 32.5,286.0 H 32.7 M 40.3,286.0 H 40.5 M 48.1,286.0 H 48.3 M 76.7,286.0 H 94.9 M 100.1,286.0 H 141.7 M 154.7,286.0 H 157.3 M 162.5,286.0 H 167.7 M 178.1,286.0 H 180.7 M 185.9,286.0 H 186.1 M 196.3,286.0 H 198.9 M 214.5,286.0 H 214.7 M 227.5,286.0 H 230.1 M 240.5,286.0 H 243.1 M 32.5,288.9 H 32.7 M 40.3,288.9 H 42.9 M 48.1,288.9 H 48.3 M 76.7,288.9 H 79.3 M 87.1,288.9 H 94.9 M 102.7,288.9 H 141.7 M 154.7,288.9 H 154.9 M 159.9,288.9 H 167.7 M 175.5,288.9 H 175.7 M 180.7,288.9 H 185.9 M 196.3,288.9 H 198.9 M 214.5,288.9 H 214.7 M 227.5,288.9 H 230.1 M 240.5,288.9 H 243.1 M 32.5,291.7 H 35.1 M 42.9,291.7 H 43.1 M 48.1,291.7 H 50.7 M 76.7,291.7 H 79.3 M 89.7,291.7 H 97.5 M 105.3,291.7 H 133.9 M 152.1,291.7 H 152.3 M 157.3,291.7 H 165.1 M 180.7,291.7 H 185.9 M 198.9,291.7 H 201.5 M 214.5,291.7 H 217.1 M 224.9,291.7 H 230.1 M 240.5,291.7 H 243.1 M 32.5,294.5 H 35.1 M 42.9,294.5 H 50.7 M 76.7,294.5 H 79.3 M 89.7,294.5 H 94.9 M 100.1,294.5 H 100.3 M 110.5,294.5 H 128.7 M 149.5,294.5 H 149.7 M 157.3,294.5 H 159.9 M 172.9,294.5 H 173.1 M 178.1,294.5 H 178.3 M 183.3,294.5 H 185.9 M 198.9,294.5 H 201.5 M 214.5,294.5 H 219.7 M 224.9,294.5 H 230.1 M 240.5,294.5 H 243.1 M 32.5,297.3 H 35.1 M 42.9,297.3 H 50.7 M 76.7,297.3 H 79.3 M 92.3,297.3 H 97.5 M 102.7,297.3 H 102.9 M 115.7,297.3 H 126.1 M 146.9,297.3 H 147.1 M 154.7,297.3 H 159.9 M 170.3,297.3 H 178.1 M 183.3,297.3 H 185.9 M 198.9,297.3 H 201.5 M 214.5,297.3 H 219.7 M 224.9,297.3 H 227.5 M 237.9,297.3 H 243.1 M 32.5,300.1 H 35.1 M 42.9,300.1 H 50.7 M 76.7,300.1 H 79.3 M 92.3,300.1 H 94.9 M 100.1,300.1 H 100.3 M 105.3,300.1 H 105.5 M 144.3,300.1 H 144.5 M 152.1,300.1 H 157.3 M 167.7,300.1 H 167.9 M 172.9,300.1 H 175.5 M 183.3,300.1 H 185.9 M 198.9,300.1 H 201.5 M 211.9,300.1 H 217.1 M 224.9,300.1 H 227.5 M 237.9,300.1 H 245.7 M 32.5,303.0 H 35.1 M 42.9,303.0 H 50.7 M 76.7,303.0 H 79.3 M 94.9,303.0 H 97.5 M 102.7,303.0 H 102.9 M 107.9,303.0 H 108.1 M 141.7,303.0 H 141.9 M 149.5,303.0 H 154.7 M 165.1,303.0 H 167.7 M 172.9,303.0 H 173.1 M 183.3,303.0 H 185.9 M 198.9,303.0 H 201.5 M 211.9,303.0 H 217.1 M 222.3,303.0 H 222.5 M 227.5,303.0 H 227.7 M 237.9,303.0 H 243.1 M 32.5,305.8 H 37.7 M 45.5,305.8 H 50.7 M 76.7,305.8 H 81.9 M 94.9,305.8 H 97.5 M 110.5,305.8 H 110.7 M 139.1,305.8 H 139.3 M 146.9,305.8 H 152.1 M 159.9,305.8 H 167.7 M 172.9,305.8 H 173.1 M 183.3,305.8 H 185.9 M 198.9,305.8 H 201.5 M 211.9,305.8 H 217.1 M 222.3,305.8 H 222.5 M 227.5,305.8 H 227.7 M 237.9,305.8 H 243.1 M 32.5,308.6 H 37.7 M 45.5,308.6 H 53.3 M 76.7,308.6 H 81.9 M 94.9,308.6 H 95.1 M 100.1,308.6 H 100.3 M 105.3,308.6 H 105.5 M 113.1,308.6 H 115.7 M 133.9,308.6 H 139.1 M 144.3,308.6 H 149.5 M 159.9,308.6 H 165.1 M 172.9,308.6 H 173.1 M 183.3,308.6 H 185.9 M 201.5,308.6 H 204.1 M 211.9,308.6 H 217.1 M 222.3,308.6 H 222.5 M 227.5,308.6 H 227.7 M 235.3,308.6 H 243.1" stroke="#00aaff" stroke-width="1.2" opacity="0.85"/>
-  <path d="M 27.3,1.4 H 27.5 M 37.7,1.4 H 37.9 M 37.7,4.2 H 37.9 M 37.7,7.0 H 37.9 M 37.7,9.9 H 37.9 M 37.7,12.7 H 37.9 M 37.7,15.5 H 37.9 M 37.7,18.3 H 37.9 M 37.7,21.1 H 37.9 M 37.7,24.0 H 37.9 M 37.7,26.8 H 37.9 M 37.7,29.6 H 37.9 M 37.7,32.4 H 37.9 M 37.7,35.2 H 37.9 M 37.7,38.0 H 37.9 M 37.7,40.9 H 37.9 M 37.7,43.7 H 37.9 M 37.7,46.5 H 37.9 M 37.7,49.3 H 37.9 M 37.7,52.1 H 37.9 M 37.7,55.0 H 37.9 M 37.7,60.6 H 37.9 M 123.5,117.0 H 149.5 M 118.3,119.8 H 120.9 M 152.1,119.8 H 157.3 M 110.5,122.6 H 115.7 M 126.1,122.6 H 149.5 M 159.9,122.6 H 162.5 M 107.9,125.4 H 110.5 M 118.3,125.4 H 133.9 M 141.7,125.4 H 154.7 M 162.5,125.4 H 165.1 M 105.3,128.2 H 107.9 M 113.1,128.2 H 131.3 M 141.7,128.2 H 159.9 M 167.7,128.2 H 167.9 M 105.3,131.0 H 105.5 M 110.5,131.0 H 133.9 M 139.1,131.0 H 139.3 M 144.3,131.0 H 162.5 M 170.3,131.0 H 170.5 M 100.1,133.9 H 131.3 M 141.7,133.9 H 165.1 M 172.9,133.9 H 173.1 M 97.5,136.7 H 128.7 M 144.3,136.7 H 167.7 M 172.9,136.7 H 175.5 M 97.5,139.5 H 100.1 M 105.3,139.5 H 126.1 M 146.9,139.5 H 170.3 M 175.5,139.5 H 175.7 M 94.9,142.3 H 97.5 M 105.3,142.3 H 123.5 M 149.5,142.3 H 178.1 M 94.9,145.1 H 97.5 M 102.7,145.1 H 120.9 M 131.3,145.1 H 139.1 M 152.1,145.1 H 172.9 M 178.1,145.1 H 178.3 M 92.3,148.0 H 94.9 M 102.7,148.0 H 118.3 M 128.7,148.0 H 133.9 M 141.7,148.0 H 144.3 M 154.7,148.0 H 178.1 M 94.9,150.8 H 95.1 M 102.7,150.8 H 115.7 M 126.1,150.8 H 126.3 M 146.9,150.8 H 147.1 M 157.3,150.8 H 180.7 M 89.7,153.6 H 89.9 M 94.9,153.6 H 95.1 M 102.7,153.6 H 113.1 M 123.5,153.6 H 123.7 M 152.1,153.6 H 152.3 M 159.9,153.6 H 172.9 M 178.1,153.6 H 180.7 M 102.7,156.4 H 113.1 M 120.9,156.4 H 128.7 M 136.5,156.4 H 146.9 M 154.7,156.4 H 154.9 M 159.9,156.4 H 172.9 M 178.1,156.4 H 178.3 M 102.7,159.2 H 110.5 M 128.7,159.2 H 146.9 M 162.5,159.2 H 172.9 M 178.1,159.2 H 178.3 M 183.3,159.2 H 183.5 M 87.1,162.0 H 87.3 M 102.7,162.0 H 107.9 M 133.9,162.0 H 144.3 M 165.1,162.0 H 172.9 M 178.1,162.0 H 178.3 M 183.3,162.0 H 183.5 M 87.1,164.9 H 87.3 M 100.1,164.9 H 107.9 M 136.5,164.9 H 141.7 M 165.1,164.9 H 172.9 M 180.7,164.9 H 180.9 M 87.1,167.7 H 87.3 M 102.7,167.7 H 105.3 M 136.5,167.7 H 141.7 M 167.7,167.7 H 175.5 M 87.1,170.5 H 87.3 M 102.7,170.5 H 105.3 M 136.5,170.5 H 136.7 M 141.7,170.5 H 141.9 M 170.3,170.5 H 175.5 M 180.7,170.5 H 180.9 M 87.1,173.3 H 87.3 M 100.1,173.3 H 102.7 M 136.5,173.3 H 136.7 M 141.7,173.3 H 141.9 M 170.3,173.3 H 175.5 M 180.7,173.3 H 180.9 M 87.1,176.1 H 87.3 M 100.1,176.1 H 102.7 M 126.1,176.1 H 128.7 M 146.9,176.1 H 149.5 M 170.3,176.1 H 175.5 M 180.7,176.1 H 180.9 M 100.1,179.0 H 100.3 M 172.9,179.0 H 178.1 M 185.9,179.0 H 186.1 M 100.1,181.8 H 100.3 M 107.9,181.8 H 110.5 M 172.9,181.8 H 178.1 M 185.9,181.8 H 186.1 M 172.9,184.6 H 178.1 M 185.9,184.6 H 186.1 M 97.5,187.4 H 97.7 M 175.5,187.4 H 178.1 M 185.9,187.4 H 186.1 M 175.5,190.2 H 175.7 M 185.9,190.2 H 186.1 M 87.1,193.0 H 87.3 M 175.5,193.0 H 175.7 M 185.9,193.0 H 186.1 M 87.1,195.9 H 87.3 M 183.3,195.9 H 185.9 M 87.1,198.7 H 87.3 M 183.3,198.7 H 188.5 M 87.1,201.5 H 87.3 M 178.1,201.5 H 188.5 M 87.1,204.3 H 87.3 M 178.1,204.3 H 183.3 M 188.5,204.3 H 188.7 M 178.1,207.1 H 183.3 M 188.5,207.1 H 188.7 M 178.1,210.0 H 183.3 M 188.5,210.0 H 188.7 M 84.5,212.8 H 84.7 M 175.5,212.8 H 180.7 M 188.5,212.8 H 191.1 M 84.5,215.6 H 84.7 M 175.5,215.6 H 180.7 M 188.5,215.6 H 191.1 M 84.5,218.4 H 84.7 M 175.5,218.4 H 180.7 M 188.5,218.4 H 191.1 M 84.5,221.2 H 84.7 M 172.9,221.2 H 178.1 M 185.9,221.2 H 191.1 M 84.5,224.0 H 84.7 M 172.9,224.0 H 178.1 M 185.9,224.0 H 191.1 M 84.5,226.9 H 84.7 M 170.3,226.9 H 178.1 M 185.9,226.9 H 193.7 M 84.5,229.7 H 84.7 M 167.7,229.7 H 178.1 M 185.9,229.7 H 193.7 M 81.9,232.5 H 82.1 M 167.7,232.5 H 175.5 M 185.9,232.5 H 193.7 M 76.7,235.3 H 76.9 M 81.9,235.3 H 84.5 M 167.7,235.3 H 175.5 M 183.3,235.3 H 196.3 M 71.5,238.1 H 74.1 M 81.9,238.1 H 82.1 M 165.1,238.1 H 175.5 M 183.3,238.1 H 201.5 M 63.7,241.0 H 68.9 M 79.3,241.0 H 81.9 M 162.5,241.0 H 172.9 M 183.3,241.0 H 183.5 M 188.5,241.0 H 209.3 M 58.5,243.8 H 68.9 M 74.1,243.8 H 81.9 M 159.9,243.8 H 172.9 M 188.5,243.8 H 191.1 M 196.3,243.8 H 217.1 M 53.3,246.6 H 66.3 M 71.5,246.6 H 84.5 M 157.3,246.6 H 172.9 M 180.7,246.6 H 180.9 M 188.5,246.6 H 191.1 M 196.3,246.6 H 222.3 M 48.1,249.4 H 63.7 M 68.9,249.4 H 84.5 M 154.7,249.4 H 170.3 M 185.9,249.4 H 191.1 M 196.3,249.4 H 224.9 M 45.5,252.2 H 76.7 M 84.5,252.2 H 87.1 M 154.7,252.2 H 170.3 M 178.1,252.2 H 178.3 M 185.9,252.2 H 188.5 M 196.3,252.2 H 227.5 M 45.5,255.0 H 76.7 M 84.5,255.0 H 89.7 M 152.1,255.0 H 159.9 M 165.1,255.0 H 170.3 M 178.1,255.0 H 178.3 M 185.9,255.0 H 188.5 M 196.3,255.0 H 230.1 M 42.9,257.9 H 76.7 M 84.5,257.9 H 92.3 M 123.5,257.9 H 131.3 M 149.5,257.9 H 154.7 M 162.5,257.9 H 167.7 M 175.5,257.9 H 175.7 M 183.3,257.9 H 188.5 M 196.3,257.9 H 232.7 M 40.3,260.7 H 76.7 M 84.5,260.7 H 97.5 M 118.3,260.7 H 126.1 M 146.9,260.7 H 149.5 M 162.5,260.7 H 167.7 M 172.9,260.7 H 175.5 M 180.7,260.7 H 185.9 M 196.3,260.7 H 235.3 M 37.7,263.5 H 76.7 M 84.5,263.5 H 100.1 M 118.3,263.5 H 120.9 M 144.3,263.5 H 146.9 M 162.5,263.5 H 165.1 M 172.9,263.5 H 173.1 M 180.7,263.5 H 185.9 M 198.9,263.5 H 237.9 M 35.1,266.3 H 76.7 M 87.1,266.3 H 102.7 M 141.7,266.3 H 141.9 M 159.9,266.3 H 162.5 M 180.7,266.3 H 185.9 M 191.1,266.3 H 191.3 M 198.9,266.3 H 227.5 M 232.7,266.3 H 237.9 M 35.1,269.1 H 42.9 M 48.1,269.1 H 76.7 M 87.1,269.1 H 107.9 M 136.5,269.1 H 139.1 M 157.3,269.1 H 162.5 M 178.1,269.1 H 183.3 M 191.1,269.1 H 191.3 M 198.9,269.1 H 227.5 M 232.7,269.1 H 240.5 M 35.1,272.0 H 42.9 M 50.7,272.0 H 76.7 M 89.7,272.0 H 89.9 M 94.9,272.0 H 110.5 M 133.9,272.0 H 136.5 M 154.7,272.0 H 159.9 M 178.1,272.0 H 183.3 M 191.1,272.0 H 191.3 M 198.9,272.0 H 227.5 M 232.7,272.0 H 240.5 M 35.1,274.8 H 42.9 M 50.7,274.8 H 74.1 M 89.7,274.8 H 89.9 M 97.5,274.8 H 113.1 M 126.1,274.8 H 131.3 M 154.7,274.8 H 159.9 M 178.1,274.8 H 180.7 M 188.5,274.8 H 191.1 M 198.9,274.8 H 227.5 M 232.7,274.8 H 237.9 M 32.5,277.6 H 42.9 M 50.7,277.6 H 74.1 M 92.3,277.6 H 92.5 M 105.3,277.6 H 126.1 M 149.5,277.6 H 157.3 M 175.5,277.6 H 178.1 M 188.5,277.6 H 193.7 M 201.5,277.6 H 224.9 M 232.7,277.6 H 237.9 M 243.1,277.6 H 243.3 M 32.5,280.4 H 37.7 M 42.9,280.4 H 43.1 M 50.7,280.4 H 74.1 M 113.1,280.4 H 118.3 M 146.9,280.4 H 157.3 M 172.9,280.4 H 178.1 M 188.5,280.4 H 193.7 M 201.5,280.4 H 224.9 M 232.7,280.4 H 237.9 M 243.1,280.4 H 243.3 M 32.5,283.2 H 37.7 M 42.9,283.2 H 45.5 M 50.7,283.2 H 74.1 M 146.9,283.2 H 154.7 M 172.9,283.2 H 175.5 M 185.9,283.2 H 193.7 M 201.5,283.2 H 211.9 M 217.1,283.2 H 224.9 M 232.7,283.2 H 237.9 M 35.1,286.0 H 37.7 M 42.9,286.0 H 45.5 M 50.7,286.0 H 74.1 M 97.5,286.0 H 97.7 M 144.3,286.0 H 152.1 M 170.3,286.0 H 175.5 M 188.5,286.0 H 193.7 M 201.5,286.0 H 211.9 M 217.1,286.0 H 224.9 M 232.7,286.0 H 237.9 M 245.7,286.0 H 245.9 M 35.1,288.9 H 37.7 M 45.5,288.9 H 45.7 M 50.7,288.9 H 74.1 M 81.9,288.9 H 84.5 M 97.5,288.9 H 100.1 M 144.3,288.9 H 152.1 M 170.3,288.9 H 172.9 M 188.5,288.9 H 193.7 M 201.5,288.9 H 211.9 M 217.1,288.9 H 224.9 M 232.7,288.9 H 237.9 M 245.7,288.9 H 245.9 M 29.9,291.7 H 30.1 M 37.7,291.7 H 40.3 M 45.5,291.7 H 45.7 M 53.3,291.7 H 74.1 M 81.9,291.7 H 87.1 M 100.1,291.7 H 102.7 M 136.5,291.7 H 149.5 M 167.7,291.7 H 172.9 M 188.5,291.7 H 196.3 M 204.1,291.7 H 211.9 M 219.7,291.7 H 222.3 M 232.7,291.7 H 237.9 M 245.7,291.7 H 245.9 M 29.9,294.5 H 30.1 M 37.7,294.5 H 40.3 M 53.3,294.5 H 74.1 M 81.9,294.5 H 87.1 M 102.7,294.5 H 107.9 M 131.3,294.5 H 146.9 M 162.5,294.5 H 170.3 M 180.7,294.5 H 180.9 M 188.5,294.5 H 196.3 M 204.1,294.5 H 211.9 M 222.3,294.5 H 222.5 M 232.7,294.5 H 237.9 M 245.7,294.5 H 245.9 M 29.9,297.3 H 30.1 M 37.7,297.3 H 40.3 M 53.3,297.3 H 74.1 M 81.9,297.3 H 89.7 M 105.3,297.3 H 113.1 M 128.7,297.3 H 144.3 M 162.5,297.3 H 167.7 M 180.7,297.3 H 180.9 M 88.5,297.3 H 196.3 M 204.1,297.3 H 211.9 M 222.3,297.3 H 222.5 M 230.1,297.3 H 235.3 M 245.7,297.3 H 245.9 M 27.3,300.1 H 29.9 M 37.7,300.1 H 40.3 M 53.3,300.1 H 74.1 M 81.9,300.1 H 89.7 M 97.5,300.1 H 97.7 M 107.9,300.1 H 141.7 M 159.9,300.1 H 165.1 M 178.1,300.1 H 180.7 M 188.5,300.1 H 196.3 M 204.1,300.1 H 209.3 M 219.7,300.1 H 222.3 M 230.1,300.1 H 235.3 M 27.3,303.0 H 29.9 M 37.7,303.0 H 40.3 M 53.3,303.0 H 74.1 M 81.9,303.0 H 92.3 M 100.1,303.0 H 100.3 M 110.5,303.0 H 139.1 M 157.3,303.0 H 162.5 M 175.5,303.0 H 180.7 M 188.5,303.0 H 196.3 M 204.1,303.0 H 209.3 M 219.7,303.0 H 219.9 M 230.1,303.0 H 235.3 M 245.7,303.0 H 248.3 M 27.3,305.8 H 29.9 M 40.3,305.8 H 42.9 M 53.3,305.8 H 74.1 M 84.5,305.8 H 92.3 M 100.1,305.8 H 102.7 M 113.1,305.8 H 136.5 M 154.7,305.8 H 157.3 M 175.5,305.8 H 180.7 M 188.5,305.8 H 196.3 M 204.1,305.8 H 209.3 M 219.7,305.8 H 219.9 M 230.1,305.8 H 235.3 M 245.7,305.8 H 248.3 M 27.3,308.6 H 29.9 M 40.3,308.6 H 42.9 M 55.9,308.6 H 74.1 M 84.5,308.6 H 92.3 M 102.7,308.6 H 102.9 M 118.3,308.6 H 131.3 M 152.1,308.6 H 157.3 M 175.5,308.6 H 180.7 M 188.5,308.6 H 198.9 M 206.7,308.6 H 209.3 M 219.7,308.6 H 219.9 M 230.1,308.6 H 232.7 M 245.7,308.6 H 248.3" stroke="#00aaff" stroke-width="1.2" opacity="0.85"/>
-  <path d="M 27.3,1.4 H 27.5 M 37.7,1.4 H 37.9 M 37.7,4.2 H 37.9 M 37.7,7.0 H 37.9 M 37.7,9.9 H 37.9 M 37.7,12.7 H 37.9 M 37.7,15.5 H 37.9 M 37.7,18.3 H 37.9 M 37.7,21.1 H 37.9 M 37.7,24.0 H 37.9 M 37.7,26.8 H 37.9 M 37.7,29.6 H 37.9 M 37.7,32.4 H 37.9 M 37.7,35.2 H 37.9 M 37.7,38.0 H 37.9 M 37.7,40.9 H 37.9 M 37.7,43.7 H 37.9 M 37.7,46.5 H 37.9 M 37.7,49.3 H 37.9 M 37.7,52.1 H 37.9 M 37.7,55.0 H 37.9 M 37.7,60.6 H 37.9 M 123.5,117.0 H 149.5 M 118.3,119.8 H 120.9 M 152.1,119.8 H 157.3 M 110.5,122.6 H 115.7 M 126.1,122.6 H 149.5 M 159.9,122.6 H 162.5 M 107.9,125.4 H 110.5 M 118.3,125.4 H 133.9 M 141.7,125.4 H 154.7 M 162.5,125.4 H 165.1 M 105.3,128.2 H 107.9 M 113.1,128.2 H 131.3 M 141.7,128.2 H 159.9 M 167.7,128.2 H 167.9 M 105.3,131.0 H 105.5 M 110.5,131.0 H 133.9 M 139.1,131.0 H 139.3 M 144.3,131.0 H 162.5 M 170.3,131.0 H 170.5 M 100.1,133.9 H 131.3 M 141.7,133.9 H 165.1 M 172.9,133.9 H 173.1 M 97.5,136.7 H 128.7 M 144.3,136.7 H 167.7 M 172.9,136.7 H 175.5 M 97.5,139.5 H 100.1 M 105.3,139.5 H 126.1 M 146.9,139.5 H 170.3 M 175.5,139.5 H 175.7 M 94.9,142.3 H 97.5 M 105.3,142.3 H 123.5 M 149.5,142.3 H 178.1 M 94.9,145.1 H 97.5 M 102.7,145.1 H 120.9 M 131.3,145.1 H 139.1 M 152.1,145.1 H 172.9 M 178.1,145.1 H 178.3 M 92.3,148.0 H 94.9 M 102.7,148.0 H 118.3 M 128.7,148.0 H 133.9 M 141.7,148.0 H 144.3 M 154.7,148.0 H 178.1 M 94.9,150.8 H 95.1 M 102.7,150.8 H 115.7 M 126.1,150.8 H 126.3 M 146.9,150.8 H 147.1 M 157.3,150.8 H 180.7 M 89.7,153.6 H 89.9 M 94.9,153.6 H 95.1 M 102.7,153.6 H 113.1 M 123.5,153.6 H 123.7 M 152.1,153.6 H 152.3 M 159.9,153.6 H 172.9 M 178.1,153.6 H 180.7 M 102.7,156.4 H 113.1 M 120.9,156.4 H 128.7 M 136.5,156.4 H 146.9 M 154.7,156.4 H 154.9 M 159.9,156.4 H 172.9 M 178.1,156.4 H 178.3 M 102.7,159.2 H 110.5 M 128.7,159.2 H 146.9 M 162.5,159.2 H 172.9 M 178.1,159.2 H 178.3 M 183.3,159.2 H 183.5 M 87.1,162.0 H 87.3 M 102.7,162.0 H 107.9 M 133.9,162.0 H 144.3 M 165.1,162.0 H 172.9 M 178.1,162.0 H 178.3 M 183.3,162.0 H 183.5 M 87.1,164.9 H 87.3 M 100.1,164.9 H 107.9 M 136.5,164.9 H 141.7 M 165.1,164.9 H 172.9 M 180.7,164.9 H 180.9 M 87.1,167.7 H 87.3 M 102.7,167.7 H 105.3 M 136.5,167.7 H 141.7 M 167.7,167.7 H 175.5 M 87.1,170.5 H 87.3 M 102.7,170.5 H 105.3 M 136.5,170.5 H 136.7 M 141.7,170.5 H 141.9 M 170.3,170.5 H 175.5 M 180.7,170.5 H 180.9 M 87.1,173.3 H 87.3 M 100.1,173.3 H 102.7 M 136.5,173.3 H 136.7 M 141.7,173.3 H 141.9 M 170.3,173.3 H 175.5 M 180.7,173.3 H 180.9 M 87.1,176.1 H 87.3 M 100.1,176.1 H 102.7 M 126.1,176.1 H 128.7 M 146.9,176.1 H 149.5 M 170.3,176.1 H 175.5 M 180.7,176.1 H 180.9 M 100.1,179.0 H 100.3 M 172.9,179.0 H 178.1 M 185.9,179.0 H 186.1 M 100.1,181.8 H 100.3 M 107.9,181.8 H 110.5 M 172.9,181.8 H 178.1 M 185.9,181.8 H 186.1 M 172.9,184.6 H 178.1 M 185.9,184.6 H 186.1 M 97.5,187.4 H 97.7 M 175.5,187.4 H 178.1 M 185.9,187.4 H 186.1 M 175.5,190.2 H 175.7 M 185.9,190.2 H 186.1 M 87.1,193.0 H 87.3 M 175.5,193.0 H 175.7 M 185.9,193.0 H 186.1 M 87.1,195.9 H 87.3 M 183.3,195.9 H 185.9 M 87.1,198.7 H 87.3 M 183.3,198.7 H 188.5 M 87.1,201.5 H 87.3 M 178.1,201.5 H 188.5 M 87.1,204.3 H 87.3 M 178.1,204.3 H 183.3 M 188.5,204.3 H 188.7 M 178.1,207.1 H 183.3 M 188.5,207.1 H 188.7 M 178.1,210.0 H 183.3 M 188.5,210.0 H 188.7 M 84.5,212.8 H 84.7 M 175.5,212.8 H 180.7 M 188.5,212.8 H 191.1 M 84.5,215.6 H 84.7 M 175.5,215.6 H 180.7 M 188.5,215.6 H 191.1 M 84.5,218.4 H 84.7 M 175.5,218.4 H 180.7 M 188.5,218.4 H 191.1 M 84.5,221.2 H 84.7 M 172.9,221.2 H 178.1 M 185.9,221.2 H 191.1 M 84.5,224.0 H 84.7 M 172.9,224.0 H 178.1 M 185.9,224.0 H 191.1 M 84.5,226.9 H 84.7 M 170.3,226.9 H 178.1 M 185.9,226.9 H 193.7 M 84.5,229.7 H 84.7 M 167.7,229.7 H 178.1 M 185.9,229.7 H 193.7 M 81.9,232.5 H 82.1 M 167.7,232.5 H 175.5 M 185.9,232.5 H 193.7 M 76.7,235.3 H 76.9 M 81.9,235.3 H 84.5 M 167.7,235.3 H 175.5 M 183.3,235.3 H 196.3 M 71.5,238.1 H 74.1 M 81.9,238.1 H 82.1 M 165.1,238.1 H 175.5 M 183.3,238.1 H 201.5 M 63.7,241.0 H 68.9 M 79.3,241.0 H 81.9 M 162.5,241.0 H 172.9 M 183.3,241.0 H 183.5 M 188.5,241.0 H 209.3 M 58.5,243.8 H 68.9 M 74.1,243.8 H 81.9 M 159.9,243.8 H 172.9 M 188.5,243.8 H 191.1 M 196.3,243.8 H 217.1 M 53.3,246.6 H 66.3 M 71.5,246.6 H 84.5 M 157.3,246.6 H 172.9 M 180.7,246.6 H 180.9 M 188.5,246.6 H 191.1 M 196.3,246.6 H 222.3 M 48.1,249.4 H 63.7 M 68.9,249.4 H 84.5 M 154.7,249.4 H 170.3 M 185.9,249.4 H 191.1 M 196.3,249.4 H 224.9 M 45.5,252.2 H 76.7 M 84.5,252.2 H 87.1 M 154.7,252.2 H 170.3 M 178.1,252.2 H 178.3 M 185.9,252.2 H 188.5 M 196.3,252.2 H 227.5 M 45.5,255.0 H 76.7 M 84.5,255.0 H 89.7 M 152.1,255.0 H 159.9 M 165.1,255.0 H 170.3 M 178.1,255.0 H 178.3 M 185.9,255.0 H 188.5 M 196.3,255.0 H 230.1 M 42.9,257.9 H 76.7 M 84.5,257.9 H 92.3 M 123.5,257.9 H 131.3 M 149.5,257.9 H 154.7 M 162.5,257.9 H 167.7 M 175.5,257.9 H 175.7 M 183.3,257.9 H 188.5 M 196.3,257.9 H 232.7 M 40.3,260.7 H 76.7 M 84.5,260.7 H 97.5 M 118.3,260.7 H 126.1 M 146.9,260.7 H 149.5 M 162.5,260.7 H 167.7 M 172.9,260.7 H 175.5 M 180.7,260.7 H 185.9 M 196.3,260.7 H 235.3 M 37.7,263.5 H 76.7 M 84.5,263.5 H 100.1 M 118.3,263.5 H 120.9 M 144.3,263.5 H 146.9 M 162.5,263.5 H 165.1 M 172.9,263.5 H 173.1 M 180.7,263.5 H 185.9 M 198.9,263.5 H 237.9 M 35.1,266.3 H 76.7 M 87.1,266.3 H 102.7 M 141.7,266.3 H 141.9 M 159.9,266.3 H 162.5 M 180.7,266.3 H 185.9 M 191.1,266.3 H 191.3 M 198.9,266.3 H 227.5 M 232.7,266.3 H 237.9 M 35.1,269.1 H 42.9 M 48.1,269.1 H 76.7 M 87.1,269.1 H 107.9 M 136.5,269.1 H 139.1 M 157.3,269.1 H 162.5 M 178.1,269.1 H 183.3 M 191.1,269.1 H 191.3 M 198.9,269.1 H 227.5 M 232.7,269.1 H 240.5 M 35.1,272.0 H 42.9 M 50.7,272.0 H 76.7 M 89.7,272.0 H 89.9 M 94.9,272.0 H 110.5 M 133.9,272.0 H 136.5 M 154.7,272.0 H 159.9 M 178.1,272.0 H 183.3 M 191.1,272.0 H 191.3 M 198.9,272.0 H 227.5 M 232.7,272.0 H 240.5 M 35.1,274.8 H 42.9 M 50.7,274.8 H 74.1 M 89.7,274.8 H 89.9 M 97.5,274.8 H 113.1 M 126.1,274.8 H 131.3 M 154.7,274.8 H 159.9 M 178.1,274.8 H 180.7 M 188.5,274.8 H 191.1 M 198.9,274.8 H 227.5 M 232.7,274.8 H 237.9 M 32.5,277.6 H 42.9 M 50.7,277.6 H 74.1 M 92.3,277.6 H 92.5 M 105.3,277.6 H 126.1 M 149.5,277.6 H 157.3 M 175.5,277.6 H 178.1 M 188.5,277.6 H 193.7 M 201.5,277.6 H 224.9 M 232.7,277.6 H 237.9 M 243.1,277.6 H 243.3 M 32.5,280.4 H 37.7 M 42.9,280.4 H 43.1 M 50.7,280.4 H 74.1 M 113.1,280.4 H 118.3 M 146.9,280.4 H 157.3 M 172.9,280.4 H 178.1 M 188.5,280.4 H 193.7 M 201.5,280.4 H 224.9 M 232.7,280.4 H 237.9 M 243.1,280.4 H 243.3 M 32.5,283.2 H 37.7 M 42.9,283.2 H 45.5 M 50.7,283.2 H 74.1 M 146.9,283.2 H 154.7 M 172.9,283.2 H 175.5 M 185.9,283.2 H 193.7 M 201.5,283.2 H 211.9 M 217.1,283.2 H 224.9 M 232.7,283.2 H 237.9 M 35.1,286.0 H 37.7 M 42.9,286.0 H 45.5 M 50.7,286.0 H 74.1 M 97.5,286.0 H 97.7 M 144.3,286.0 H 152.1 M 170.3,286.0 H 175.5 M 188.5,286.0 H 193.7 M 201.5,286.0 H 211.9 M 217.1,286.0 H 224.9 M 232.7,286.0 H 237.9 M 245.7,286.0 H 245.9 M 35.1,288.9 H 37.7 M 45.5,288.9 H 45.7 M 50.7,288.9 H 74.1 M 81.9,288.9 H 84.5 M 97.5,288.9 H 100.1 M 144.3,288.9 H 152.1 M 170.3,288.9 H 172.9 M 188.5,288.9 H 193.7 M 201.5,288.9 H 211.9 M 217.1,288.9 H 224.9 M 232.7,288.9 H 237.9 M 245.7,288.9 H 245.9 M 29.9,291.7 H 30.1 M 37.7,291.7 H 40.3 M 45.5,291.7 H 45.7 M 53.3,291.7 H 74.1 M 81.9,291.7 H 87.1 M 100.1,291.7 H 102.7 M 136.5,291.7 H 149.5 M 167.7,291.7 H 172.9 M 188.5,291.7 H 196.3 M 204.1,291.7 H 211.9 M 219.7,291.7 H 222.3 M 232.7,291.7 H 237.9 M 245.7,291.7 H 245.9 M 29.9,294.5 H 30.1 M 37.7,294.5 H 40.3 M 53.3,294.5 H 74.1 M 81.9,294.5 H 87.1 M 102.7,294.5 H 107.9 M 131.3,294.5 H 146.9 M 162.5,294.5 H 170.3 M 180.7,294.5 H 180.9 M 188.5,294.5 H 196.3 M 204.1,294.5 H 211.9 M 222.3,294.5 H 222.5 M 232.7,294.5 H 237.9 M 245.7,294.5 H 245.9 M 29.9,297.3 H 30.1 M 37.7,297.3 H 40.3 M 53.3,297.3 H 74.1 M 81.9,297.3 H 89.7 M 105.3,297.3 H 113.1 M 128.7,297.3 H 144.3 M 162.5,297.3 H 167.7 M 180.7,297.3 H 180.9 M 188.5,297.3 H 196.3 M 204.1,297.3 H 211.9 M 222.3,297.3 H 222.5 M 230.1,297.3 H 235.3 M 245.7,297.3 H 245.9 M 27.3,300.1 H 29.9 M 37.7,300.1 H 40.3 M 53.3,300.1 H 74.1 M 81.9,300.1 H 89.7 M 97.5,300.1 H 97.7 M 107.9,300.1 H 141.7 M 159.9,300.1 H 165.1 M 178.1,300.1 H 180.7 M 188.5,300.1 H 196.3 M 204.1,300.1 H 209.3 M 219.7,300.1 H 222.3 M 230.1,300.1 H 235.3 M 27.3,303.0 H 29.9 M 37.7,303.0 H 40.3 M 53.3,303.0 H 74.1 M 81.9,303.0 H 92.3 M 100.1,303.0 H 100.3 M 110.5,303.0 H 139.1 M 157.3,303.0 H 162.5 M 175.5,303.0 H 180.7 M 188.5,303.0 H 196.3 M 204.1,303.0 H 209.3 M 219.7,303.0 H 219.9 M 230.1,303.0 H 235.3 M 245.7,303.0 H 248.3 M 27.3,305.8 H 29.9 M 40.3,305.8 H 42.9 M 53.3,305.8 H 74.1 M 84.5,305.8 H 92.3 M 100.1,305.8 H 102.7 M 113.1,305.8 H 136.5 M 154.7,305.8 H 157.3 M 175.5,305.8 H 180.7 M 188.5,305.8 H 196.3 M 204.1,305.8 H 209.3 M 219.7,305.8 H 219.9 M 230.1,305.8 H 235.3 M 245.7,305.8 H 248.3 M 27.3,308.6 H 29.9 M 40.3,308.6 H 42.9 M 55.9,308.6 H 74.1 M 84.5,308.6 H 92.3 M 102.7,308.6 H 102.9 M 118.3,308.6 H 131.3 M 152.1,308.6 H 157.3 M 175.5,308.6 H 180.7 M 188.5,308.6 H 198.9 M 206.7,308.6 H 209.3 M 219.7,308.6 H 219.9 M 230.1,308.6 H 232.7 M 245.7,308.6 H 248.3" stroke="#00ffcc" stroke-width="1.8" opacity="0.85"/>
-  <path d="M 29.9,1.4 H 30.1 M 27.3,4.2 H 29.9 M 27.3,7.0 H 29.9 M 27.3,9.9 H 27.5 M 27.3,12.7 H 27.5 M 27.3,15.5 H 27.5 M 37.7,57.8 H 37.9 M 37.7,63.4 H 37.9 M 37.7,66.2 H 37.9 M 37.7,69.0 H 37.9 M 37.7,71.9 H 37.9 M 37.7,74.7 H 37.9 M 37.7,80.3 H 37.9 M 37.7,114.1 H 37.9 M 152.1,117.0 H 152.3 M 115.7,119.8 H 115.9 M 123.5,119.8 H 149.5 M 118.3,122.6 H 123.5 M 152.1,122.6 H 157.3 M 105.3,125.4 H 105.5 M 113.1,125.4 H 115.7 M 136.5,125.4 H 139.1 M 157.3,125.4 H 159.9 M 102.7,128.2 H 102.9 M 110.5,128.2 H 110.7 M 133.9,128.2 H 139.1 M 162.5,128.2 H 165.1 M 107.9,131.0 H 108.1 M 141.7,131.0 H 141.9 M 165.1,131.0 H 167.7 M 167.7,133.9 H 170.3 M 170.3,136.7 H 170.5 M 172.9,139.5 H 173.1 M 175.5,145.1 H 175.7 M 136.5,148.0 H 139.1 M 180.7,148.0 H 180.9 M 89.7,150.8 H 89.9 M 128.7,150.8 H 144.3 M 126.1,153.6 H 149.5 M 131.3,156.4 H 133.9 M 149.5,156.4 H 152.1 M 183.3,156.4 H 183.5 M 139.1,170.5 H 139.3 M 185.9,170.5 H 186.1 M 139.1,173.3 H 139.3 M 185.9,173.3 H 186.1 M 185.9,176.1 H 186.1 M 27.3,195.9 H 27.5 M 27.3,198.7 H 27.5 M 191.1,210.0 H 191.3 M 35.1,215.6 H 35.3 M 35.1,218.4 H 35.3 M 35.1,221.2 H 35.3 M 35.1,224.0 H 35.3 M 193.7,224.0 H 193.9 M 35.1,226.9 H 35.3 M 35.1,229.7 H 35.3 M 81.9,229.7 H 82.1 M 35.1,232.5 H 35.3 M 35.1,235.3 H 35.3 M 35.1,238.1 H 35.3 M 35.1,241.0 H 35.3 M 211.9,241.0 H 212.1 M 35.1,243.8 H 35.3 M 55.9,243.8 H 56.1 M 219.7,243.8 H 219.9 M 35.1,246.6 H 35.3 M 35.1,249.4 H 35.3 M 227.5,249.4 H 227.7 M 27.3,252.2 H 27.5 M 35.1,252.2 H 35.3 M 35.1,255.0 H 35.3 M 42.9,255.0 H 43.1 M 27.3,257.9 H 27.5 M 35.1,257.9 H 35.3 M 27.3,260.7 H 27.5 M 35.1,260.7 H 37.7 M 27.3,263.5 H 27.5 M 35.1,263.5 H 35.3 M 27.3,266.3 H 27.5 M 27.3,269.1 H 27.5 M 27.3,272.0 H 27.5 M 27.3,274.8 H 27.5 M 243.1,274.8 H 243.3 M 27.3,277.6 H 27.5 M 27.3,280.4 H 27.5 M 27.3,283.2 H 27.5 M 27.3,286.0 H 27.5 M 27.3,294.5 H 27.5 M 27.3,297.3 H 27.5 M 248.3,300.1 H 248.5" stroke="#e0ffff" stroke-width="2.5" opacity="0.85"/>
-</g>
+      <!-- Code editor panel -->
+      <g transform="translate(0, 30)">
+        <!-- Editor header -->
+        <rect x="0" y="0" width="250" height="28" rx="4" fill="#091b35" fill-opacity="0.8"/>
+        <circle cx="12" cy="14" r="4" fill="#ff5f56"/>
+        <circle cx="24" cy="14" r="4" fill="#ffbd2e"/>
+        <circle cx="36" cy="14" r="4" fill="#27c93f"/>
+        <text x="125" y="18" fill="#8892b0" font-size="9" text-anchor="middle">profile.ts</text>
+
+        <!-- Scrolling code lines -->
+        <g class="code-scroll">
+          <text x="8" y="50" fill="#8892b0" font-size="10">1  <tspan fill="#569cd6">import</tspan> { Profile } <tspan fill="#569cd6">from</tspan> <tspan fill="#ce9178">'./syed'</tspan></text>
+          <text x="8" y="66" fill="#8892b0" font-size="10">2  <tspan fill="#569cd6">import</tspan> { Skills } <tspan fill="#569cd6">from</tspan> <tspan fill="#ce9178">'./stack'</tspan></text>
+          <text x="8" y="86" fill="#8892b0" font-size="10">3</text>
+          <text x="8" y="102" fill="#8892b0" font-size="10">4  <tspan fill="#569cd6">const</tspan> name = <tspan fill="#ce9178">"Syed Abdullah Yaqoob"</tspan></text>
+          <text x="8" y="118" fill="#8892b0" font-size="10">5  <tspan fill="#569cd6">const</tspan> uni = <tspan fill="#ce9178">"NUST Â· CS Â· 3.77 GPA"</tspan></text>
+          <text x="8" y="134" fill="#8892b0" font-size="10">6  <tspan fill="#569cd6">const</tspan> role = <tspan fill="#ce9178">"AI &amp; Backend Engineer"</tspan></text>
+          <text x="8" y="150" fill="#8892b0" font-size="10">7</text>
+          <text x="8" y="166" fill="#8892b0" font-size="10">8  <tspan fill="#569cd6">const</tspan> stack = [</text>
+          <text x="20" y="182" fill="#ce9178" font-size="10">  "Python", "TypeScript",</text>
+          <text x="20" y="198" fill="#ce9178" font-size="10">  "Node.js", "React",</text>
+          <text x="20" y="214" fill="#ce9178" font-size="10">  "AWS", "Docker", "K8s"</text>
+          <text x="8" y="230" fill="#8892b0" font-size="10">  ]</text>
+          <text x="8" y="246" fill="#8892b0" font-size="10">9</text>
+          <text x="8" y="262" fill="#569cd6" font-size="10">  <tspan fill="#569cd6">interface</tspan>  Experience  {</text>
+          <text x="20" y="278" fill="#9cdcfe" font-size="10">  company:  <tspan fill="#569cd6">string</tspan></text>
+          <text x="20" y="294" fill="#9cdcfe" font-size="10">  role:  <tspan fill="#569cd6">string</tspan></text>
+          <text x="20" y="310" fill="#9cdcfe" font-size="10">  impact:  <tspan fill="#569cd6">string</tspan></text>
+          <text x="8" y="326" fill="#8892b0" font-size="10">  }</text>
+          <text x="8" y="342" fill="#8892b0" font-size="10">10</text>
+          <text x="8" y="358" fill="#569cd6" font-size="10">  <tspan fill="#569cd6">type</tspan>  Status  =</text>
+          <text x="20" y="374" fill="#ce9178" font-size="10">  | "building"</text>
+          <text x="20" y="390" fill="#ce9178" font-size="10">  | "learning"</text>
+          <text x="20" y="406" fill="#ce9178" font-size="10">  | "exploring"</text>
+          <text x="20" fill="#6a9955" font-size="10">  | "open_to_work"</text>
         </g>
         
-        <!-- Holographic Scanning Line -->
-        <rect class="scanline" x="0" y="10" width="260" height="15" fill="url(#scanline-grad)"/>
-        
-        <!-- Scan overlay borders -->
-        <line x1="0" y1="10" x2="260" y2="10" stroke="#00f5ff" stroke-width="0.5" opacity="0.1"/>
-        <line x1="0" y1="310" x2="260" y2="310" stroke="#00f5ff" stroke-width="0.5" opacity="0.1"/>
+        <!-- Scan overlay -->
+        <rect class="scanline" x="0" y="30" width="260" height="15" fill="url(#scanline-grad)"/>
       </g>
 
-      <!-- Floating HUD Details -->
-      <text x="15" y="360" fill="#8892b0" font-size="8" opacity="0.8">SYSTEM: ONLINE</text>
-      <text x="15" y="372" fill="#8892b0" font-size="8" opacity="0.8">REFRESH: 144Hz</text>
-      <text x="180" y="360" fill="#8892b0" font-size="8" opacity="0.8" text-anchor="start">ZOOM: 1.0X</text>
-      <text x="180" y="372" fill="#8892b0" font-size="8" opacity="0.8" text-anchor="start">RES: 75x88</text>
-
-      <!-- Diagnostic Waveform Graphic (Pulsing radar scan) -->
-      <path class="wave-path" d="M 15,420 L 40,420 L 48,400 L 56,440 L 64,420 L 110,420 L 118,380 L 126,450 L 134,420 L 175,420 L 183,410 L 191,430 L 199,420 L 245,420" 
-            stroke="#00ffcc" stroke-width="1.5" fill="none" opacity="0.6"/>
-            
-      <text x="35" y="455" fill="#00ffcc" font-size="9" font-weight="bold">CPU: 14.8%</text>
-      <text x="140" y="455" fill="#00ffcc" font-size="9" font-weight="bold">MEM: 5.4G/16G</text>
-
-      <!-- Overlay HUD identity badge -->
+      <!-- Bottom HUD -->
+      <text x="15" y="430" fill="#8892b0" font-size="8" opacity="0.8">STATUS: BUILDING</text>
+      <text x="15" y="442" fill="#8892b0" font-size="8" opacity="0.8">MODE: PRODUCTION</text>
+      
+      <!-- Waveform -->
+      <path class="wave-path" d="M 15,460 L 40,460 L 48,440 L 56,480 L 64,460 L 110,460 L 118,420 L 126,490 L 134,460 L 175,460 L 183,450 L 191,470 L 199,460 L 245,460" stroke="#00ffcc" stroke-width="1.5" fill="none" opacity="0.6"/>
+      
+      <!-- Badge -->
       <rect x="25" y="475" width="200" height="20" rx="4" fill="#031124" fill-opacity="0.85" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1"/>
       <text x="125" y="489" fill="#00f5ff" font-size="9" text-anchor="middle" font-weight="bold" opacity="0.9">SYED_ABDULLAH // NUST_CS</text>
     </g>
 
-    <!-- Floating Particles in portrait card -->
     <circle cx="30" cy="200" r="2" fill="#00f5ff" class="particle1"/>
     <circle cx="230" cy="140" r="1.5" fill="#00ffcc" class="particle2"/>
-    <circle cx="210" cy="260" r="2.5" fill="#00f5ff" class="particle1"/>
-    <circle cx="50" cy="110" r="1" fill="#e0ffff" class="particle2"/>
 
-    <!-- ================= RIGHT AREA: TERMINAL SHELL ================= -->
-    <!-- Glassmorphic Terminal Card -->
+    <!-- ================= RIGHT: TERMINAL ================= -->
     <rect x="345" y="30" width="470" height="540" rx="12" fill="#051021" fill-opacity="0.65" stroke="#00f5ff" stroke-opacity="0.25" stroke-width="1.5"/>
-    
-    <!-- Moving Light Reflection Overlay -->
     <rect x="345" y="30" width="470" height="540" rx="12" fill="url(#shine-grad)" pointer-events="none">
       <animate attributeName="x" values="-470;850;-470" dur="10s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Terminal Header -->
     <path d="M 345 42 L 345 30 A 12 12 0 0 1 357 30 L 803 30 A 12 12 0 0 1 815 30 L 815 42 Z" fill="#091b35" fill-opacity="0.85"/>
     <circle cx="365" cy="43" r="5" fill="#ff5f56"/>
     <circle cx="381" cy="43" r="5" fill="#ffbd2e"/>
     <circle cx="397" cy="43" r="5" fill="#27c93f"/>
     <text x="580" y="47" fill="#8892b0" font-size="11" text-anchor="middle" font-weight="bold">syed.abdullah@github:~/profile</text>
-    
-    <!-- Corner markings -->
+
     <line x1="800" y1="35" x2="805" y2="35" stroke="#00f5ff" stroke-width="1" opacity="0.5"/>
     <line x1="805" y1="35" x2="805" y2="40" stroke="#00f5ff" stroke-width="1" opacity="0.5"/>
 
-    <!-- Terminal Content Group -->
     <g transform="translate(10, 0)">
-      
-      <!-- Line 1: boot -->
+      <!-- Line 1 -->
       <g>
         <text x="365" y="85" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd1)">
-          <text x="535" y="85" fill="#00ffcc" font-size="12" font-weight="bold">boot</text>
+          <text x="535" y="85" fill="#00ffcc" font-size="12" font-weight="bold">boot --env=production</text>
         </g>
       </g>
-
-      <!-- Line 2: init text -->
       <g class="out-line1">
-        <text x="365" y="105" fill="#00ff88" font-size="11">ð Initializing Developer Environment...</text>
+        <text x="365" y="105" fill="#00ff88" font-size="11">[INFO] Initializing Developer Environment...</text>
       </g>
-      
-      <!-- Line 3: progress bar -->
       <g class="out-line2">
-        <text x="365" y="125" fill="#00f5ff" font-size="11">ââââââââââââââââ 100%  [System Ready â]</text>
+        <text x="365" y="125" fill="#00f5ff" font-size="11">[OK] System Ready â€” 16 cores | 64GB | online</text>
       </g>
 
-      <!-- Line 4: whoami command -->
+      <!-- Line 2 -->
       <g>
         <text x="365" y="155" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd2)">
-          <text x="535" y="155" fill="#00ffcc" font-size="12" font-weight="bold">whoami</text>
+          <text x="535" y="155" fill="#00ffcc" font-size="12" font-weight="bold">cat /etc/profile</text>
         </g>
       </g>
-
-      <!-- Line 5-6: whoami output -->
       <g class="out-line3">
-        <text x="365" y="175" fill="#e0ffff" font-size="13" font-weight="bold" filter="url(#subtle-glow)">ð©ð» Syed Abdullah Yaqoob</text>
+        <text x="365" y="175" fill="#e0ffff" font-size="13" font-weight="bold" filter="url(#subtle-glow)">Syed Abdullah Yaqoob</text>
       </g>
       <g class="out-line4">
-        <text x="365" y="195" fill="#8892b0" font-size="11">ð BS Computer Science @ NUST</text>
+        <text x="365" y="195" fill="#8892b0" font-size="11">BS Computer Science @ NUST Â· 3.77 GPA</text>
       </g>
 
-      <!-- Line 7: skills command -->
+      <!-- Line 3 -->
       <g>
         <text x="365" y="225" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd3)">
-          <text x="535" y="225" fill="#00ffcc" font-size="12" font-weight="bold">skills</text>
+          <text x="535" y="225" fill="#00ffcc" font-size="12" font-weight="bold">skills --list</text>
         </g>
       </g>
-
-      <!-- Line 8-9: skills output -->
       <g class="out-line5" font-size="11" fill="#00f5ff">
-        <text x="365" y="245">ð» C++  â¢  ð Python  â¢  â Java  â¢  ðï¸ SQL</text>
-        <text x="365" y="265">ð HTML5 â¢ CSS3 â¢ JavaScript  â¢  ð§ Git &amp; GitHub</text>
+        <text x="365" y="245">Python Â· TypeScript Â· Node.js Â· React Â· Next.js</text>
+        <text x="365" y="265">AWS Â· Docker Â· Kubernetes Â· LLMs Â· FastAPI</text>
       </g>
 
-      <!-- Line 10: learning command -->
+      <!-- Line 4 -->
       <g>
         <text x="365" y="295" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd4)">
-          <text x="535" y="295" fill="#00ffcc" font-size="12" font-weight="bold">learning</text>
+          <text x="535" y="295" fill="#00ffcc" font-size="12" font-weight="bold">experience</text>
         </g>
       </g>
-
-      <!-- Line 11: learning output -->
       <g class="out-line6" font-size="11" fill="#ffdd67">
-        <text x="365" y="315">ð¤ LLM Pipelines &amp; Cloud-Native &amp; Fintech &amp; AI</text>
+        <text x="365" y="315">FlyRank AI â€” Backend AI Engineer (Jun 2026)</text>
+        <text x="365" y="332">NCSS â€” Dev Lead &amp; President (Apr 2025)</text>
+        <text x="365" y="349">NRAI â€” Software Engineer (Sep 2025)</text>
       </g>
 
-      <!-- Line 12: current_status command -->
+      <!-- Line 5 -->
       <g>
-        <text x="365" y="345" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
+        <text x="365" y="379" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd5)">
-          <text x="535" y="345" fill="#00ffcc" font-size="12" font-weight="bold">current_status</text>
+          <text x="535" y="379" fill="#00ffcc" font-size="12" font-weight="bold">current_status</text>
         </g>
       </g>
-
-      <!-- Line 13-15: current_status output -->
       <g class="out-line7" font-size="11" fill="#e0ffff" opacity="0.8">
-        <text x="365" y="365">â Building AI meets infrastructure...</text>
-        <text x="365" y="382">ð Shipping production systems daily.</text>
-        <text x="365" y="399">ð 3.77 GPA - NUST CS.</text>
+        <text x="365" y="399">Building AI-meets-infrastructure systems</text>
+        <text x="365" y="416">Shipping LLM inference on AWS Lambda</text>
+        <text x="365" y="433">Open to Intern roles Â· SWE Â· AI Â· Backend</text>
       </g>
 
-      <!-- Line 16: motto command -->
+      <!-- Line 6 -->
       <g>
-        <text x="365" y="429" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
+        <text x="365" y="463" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd6)">
-          <text x="535" y="429" fill="#00ffcc" font-size="12" font-weight="bold">motto</text>
+          <text x="535" y="463" fill="#00ffcc" font-size="12" font-weight="bold">motto</text>
         </g>
       </g>
-
-      <!-- Line 17: motto output -->
       <g class="out-line8" font-size="11" fill="#00ff88" font-weight="bold" filter="url(#subtle-glow)">
-        <text x="365" y="449">â¨ Learn.  ð Build.  ð¡ Improve.  ð Repeat.</text>
+        <text x="365" y="483">"Systems that ship. Metrics that move. Code that scales."</text>
       </g>
 
-      <!-- Line 18: connect command -->
+      <!-- Line 7 -->
       <g>
-        <text x="365" y="479" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
+        <text x="365" y="513" fill="#8892b0" font-size="12" font-weight="500">syed.abdullah@github:~$</text>
         <g clip-path="url(#clip-cmd7)">
-          <text x="535" y="479" fill="#00ffcc" font-size="12" font-weight="bold">connect</text>
+          <text x="535" y="513" fill="#00ffcc" font-size="12" font-weight="bold">connect --all</text>
         </g>
       </g>
-
-      <!-- Line 19-20: connect output -->
       <g class="out-line9">
-        <text x="365" y="499" fill="#ffffff" font-size="11">ð¬ Open to SWE / AI / Backend Intern roles!</text>
+        <text x="365" y="533" fill="#ffffff" font-size="11">LinkedIn Â· GitHub Â· Portfolio â€” @codewithsyedabdullah</text>
       </g>
       <g class="out-line10">
-        <text x="365" y="524" fill="#00ffcc" font-size="12" font-weight="bold">ð¢ STATUS : AVAILABLE <tspan class="cursor" fill="#00ffcc">â</tspan></text>
+        <text x="365" y="558" fill="#00ffcc" font-size="12" font-weight="bold">STATUS: AVAILABLE FOR INTERNSHIPS <tspan class="cursor" fill="#00ffcc">_</tspan></text>
       </g>
-
     </g>
   </g>
 </svg>
