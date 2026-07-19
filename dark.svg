@@ -1,10 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="600" viewBox="0 0 850 600" fill="none">
   <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       @keyframes scan { 0%{transform:translateY(0)} 50%{transform:translateY(300px)} 100%{transform:translateY(0)} }
       @keyframes float-p1 { 0%,100%{transform:translate(0,0);opacity:.2} 50%{transform:translate(10px,-20px);opacity:.7} }
       @keyframes float-p2 { 0%,100%{transform:translate(0,0);opacity:.3} 50%{transform:translate(-15px,-15px);opacity:.8} }
+      @keyframes pulse-border { 0%,100%{stroke-opacity:.3} 50%{stroke-opacity:.8} }
       @keyframes fadeSeq1 { 0%,10%{opacity:0} 11%,100%{opacity:1} }
       @keyframes fadeSeq2 { 0%,12%{opacity:0} 13%,100%{opacity:1} }
       @keyframes fadeSeq3 { 0%,21%{opacity:0} 22%,100%{opacity:1} }
@@ -19,6 +28,7 @@
       .sc { animation:scan 6s infinite ease-in-out }
       .p1 { animation:float-p1 5s infinite ease-in-out }
       .p2 { animation:float-p2 7s infinite ease-in-out }
+      .pb { animation:pulse-border 4s infinite ease-in-out }
       .o1 { animation:fadeSeq1 20s infinite }
       .o2 { animation:fadeSeq2 20s infinite }
       .o3 { animation:fadeSeq3 20s infinite }
@@ -61,8 +71,10 @@
 
   <rect width="850" height="600" rx="16" fill="url(#bg)"/>
   <rect width="850" height="600" rx="16" fill="url(#grid)"/>
+  <circle cx="100" cy="150" r="120" fill="#0055ff" opacity=".06" filter="url(#neon)"/>
+  <circle cx="750" cy="450" r="160" fill="#00f5ff" opacity=".04" filter="url(#neon)"/>
 
-  <rect x="35" y="30" width="280" height="540" rx="12" fill="#06152d" fill-opacity=".4" stroke="url(#border)" stroke-width="1.5"/>
+  <rect x="35" y="30" width="280" height="540" rx="12" fill="#06152d" fill-opacity=".4" stroke="url(#border)" stroke-width="1.5" class="pb"/>
 
   <g transform="translate(45,45)">
     <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#00f5ff" stroke-width="2"/>
@@ -98,8 +110,8 @@
 
     <path class="wv" d="M 15,420 L 40,420 L 48,400 L 56,440 L 64,420 L 110,420 L 118,380 L 126,450 L 134,420 L 175,420 L 183,410 L 191,430 L 199,420 L 245,420" stroke="#00ffcc" stroke-width="1.5" fill="none" opacity=".6"/>
 
-    <text x="35" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold">CPU: 14.8%</text>
-    <text x="140" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold">MEM: 5.4G/16G</text>
+    <text x="35" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">CPU: 14.8%</text>
+    <text x="140" y="455" fill="#00ffcc" font-size="9" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">MEM: 5.4G/16G</text>
 
     <rect x="25" y="475" width="200" height="20" rx="4" fill="#031124" fill-opacity=".85" stroke="#00f5ff" stroke-opacity=".3" stroke-width="1"/>
     <text x="125" y="489" fill="#00f5ff" font-size="9" font-family="Consolas,'Courier New',monospace" text-anchor="middle" font-weight="bold" opacity=".9">SYED_ABDULLAH // NUST_CS</text>
@@ -137,7 +149,7 @@
     <text x="365" y="155" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ whoami</text>
 
     <g class="o3">
-      <text x="365" y="175" fill="#e0ffff" font-size="13" font-family="Consolas,'Courier New',monospace" font-weight="bold">Syed Abdullah Yaqoob</text>
+      <text x="365" y="175" fill="#e0ffff" font-size="13" font-family="Consolas,'Courier New',monospace" font-weight="bold" filter="url(#glow)">Syed Abdullah Yaqoob</text>
     </g>
     <g class="o4">
       <text x="365" y="195" fill="#8892b0" font-size="11" font-family="Consolas,'Courier New',monospace">BS Computer Science @ NUST</text>
@@ -167,7 +179,7 @@
     <text x="365" y="429" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ motto</text>
 
     <g class="o8" font-size="11" fill="#00ff88" font-weight="bold" font-family="Consolas,'Courier New',monospace">
-      <text x="365" y="449">Build.  Ship.  Scale.  Repeat.</text>
+      <text x="365" y="449" filter="url(#glow)">Build.  Ship.  Scale.  Repeat.</text>
     </g>
 
     <text x="365" y="479" fill="#8892b0" font-size="12" font-family="Consolas,'Courier New',monospace" font-weight="500">syed.abdullah@github:~$ connect</text>
