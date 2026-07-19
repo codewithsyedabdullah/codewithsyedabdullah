@@ -1,3 +1,5 @@
+<img src="dark.svg" width="100%" alt="Syed Abdullah - Terminal Profile">
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=Syed+Abdullah+Yaqoob&fontSize=42&fontColor=CAFF3C&textBg=false&section=header&fontAlignY=30&desc=AI+%E2%80%A2+Backend+%E2%80%A2+Cloud+%E2%80%A2+Fintech&descSize=15&descAlignY=43&animation=fadeIn" width="100%" />
 </p>
@@ -412,4 +414,3 @@ currently:
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=gradient&customColorList=2&text=codewithsyedabdullah&fontSize=28&fontColor=CAFF3C&textBg=false&animation=fadeIn&section=footer&fontAlignY=70&reversal=false" width="100%" />
 </p>
-
