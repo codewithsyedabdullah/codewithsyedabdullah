@@ -355,16 +355,7 @@ OPEN_TO="SWE Intern  ·  AI/ML Intern  ·  Backend Developer  ·  Full-Stack Dev
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=codewithsyedabdullah&show_icons=true&theme=transparent&title_color=CAFF3C&text_color=E8F5E1&icon_color=8AFF57&border_color=0F1A0B&bg_color=0A0F08&hide_border=true&count_private=true" height="160" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsyedabdullah&theme=transparent&ring=CAFF3C&fire=CAFF3C&currStreakLabel=CAFF3C&sideNums=E8F5E1&sideLabels=8AFF57&dates=8AFF57&border=0F1A0B&bg_color=0A0F08&hide_border=true" height="160" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsyedabdullah&layout=compact&theme=transparent&title_color=CAFF3C&text_color=E8F5E1&border_color=0F1A0B&bg_color=0A0F08&hide_border=true" height="140" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithsyedabdullah&bg_color=0A0F08&color=CAFF3C&line=CAFF3C&point=8AFF57&area=true&area_color=CAFF3C&hide_border=true&custom_title=Contribution+Graph&radius=8" width="100%" />
 </p>
 
 <br>
